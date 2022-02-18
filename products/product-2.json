@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-2",
+  "properties": {
+    "start_datetime": null,
+    "end_datetime": null,
+    "title": "Global Model of Crust and Upper Mantle_WINTERC-G_GOCE",
+    "description": "Global model of crust and upper mantle",
+    "mission": "GOCE",
+    "osc:project": "3D-Earth",
+    "osc:themes": [
+      "Solid Earth"
+    ],
+    "osc:variable": "Sub-ice heat-flux",
+    "osc:status": "COMPLETED",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.3dearth.uni-kiel.de/en"
+    },
+    {
+      "rel": "via",
+      "href": "https://drive.google.com/drive/folders/1bmwEpPm4Jj83legXuhmPB-EJ7oz5hKag?usp=sharing"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/sub-ice-heat-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/sub-ice-heat-flux.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Sub-ice heat-flux"
+}

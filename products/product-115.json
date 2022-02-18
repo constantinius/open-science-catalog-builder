@@ -1,0 +1,67 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-115",
+  "properties": {
+    "start_datetime": "2018-01-01T00:00:00",
+    "end_datetime": "2020-01-01T00:00:00",
+    "title": "Water level from altimetry_Temporal series_L3 Products Database_Po Sermide_Multimission",
+    "description": "The database includes the temporal series of water level from altimetry (multi-mission series from SARAL/AltiKa, Cryosat-2 and Sentinel-3) and multispetral sensors (MODIS from Terra and Aqua and OLCI from Sentinel-3A and 3B)",
+    "mission": "Sentinel-3; SARAL/ALtiKa; Cryosat-2; MODIS",
+    "osc:project": "RIDESAT - RIver flow monitoring and Discharge Estimation by integrating multiple SATellite data",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:variable": "Water Level",
+    "osc:status": "COMPLETED",
+    "osc:region": "Europe",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2018-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.289,
+      45.015
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://hydrology.irpi.cnr.it/projects/ridesat/"
+    },
+    {
+      "rel": "via",
+      "href": "http://hydrology.irpi.cnr.it/projects/ridesat/"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/water-level.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/water-level.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Water Level"
+}

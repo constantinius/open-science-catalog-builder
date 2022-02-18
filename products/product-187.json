@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-187",
+  "properties": {
+    "start_datetime": "2018-01-01T00:00:00",
+    "end_datetime": "2018-01-01T00:00:00",
+    "title": "Total surface current_Tropical Atlantic",
+    "description": "Tropical Altantic Total Surface Current,  contains the total surface current including CMEMS geostrophy and Ekman+Near-Inertial currents estimated from ERA5-10m winds with an empirically-adjusted 1D - depth model (Ubelmann et al., in prep)",
+    "mission": "",
+    "osc:project": "World Ocean circulation",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Sea surface currents",
+    "osc:status": "Planned",
+    "osc:region": "Tropical Atlantic",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2018-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -89.4913889096,
+      -0.4101314918,
+      12.2761059784,
+      20.4479407425
+    ],
+    "coordinates": [
+      [
+        [
+          -89.4913889096,
+          -0.4101314918
+        ],
+        [
+          12.2761059784,
+          -0.4101314918
+        ],
+        [
+          12.2761059784,
+          20.4479407425
+        ],
+        [
+          -89.4913889096,
+          20.4479407425
+        ],
+        [
+          -89.4913889096,
+          -0.4101314918
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/Products"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/sea-surface-currents.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/sea-surface-currents.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Sea surface currents"
+}

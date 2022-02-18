@@ -1,0 +1,58 @@
+{
+  "type": "Collection",
+  "id": "Soil moisture",
+  "stac_version": "1.0.0",
+  "description": "Soil moisture is an important variable in land\u2013atmosphere feedbacks at both weather and climate timescales. It plays a major role in partitioning the incoming radiation flux onto the land into fluxes of latent and sensible heat from the land to the atmosphere, and in separating precipitation into runoff, subsurface flow, and infiltration. Soil moisture is intimately involved in the feedback between climate and vegetation, as both local climate and vegetation influence soil moisture through evapotranspiration, while soil moisture is a determinant of the type and condition of vegetation in a region. Changes in soil moisture can accordingly have substantial impacts on agricultural productivity, forestry and ecosystem health. https://gcos.wmo.int/en/essential-climate-variables/soil-moisture",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-137.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-146.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "land",
+  "osc:type": "Variable",
+  "osc:years": [
+    2015
+  ],
+  "osc:numberOfProducts": 2,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,46 @@
+{
+  "type": "Collection",
+  "id": "Nitrous oxide",
+  "stac_version": "1.0.0",
+  "description": "Nitrous oxide (N2O) is an important climate-relevant trace gas in the Earth\u2019s atmosphere. In the troposphere it acts as a strong greenhouse gas and in the stratosphere it acts as an ozone depleting substance because it is the precursor of ozone depleting nitric oxide radicals. The ocean - including its coastal areas such as continental shelves, estuaries and upwelling areas - contribute about 30% to the atmospheric N2O budget. https://gcos.wmo.int/en/essential-climate-variables/n2o",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "oceans",
+  "osc:type": "Variable",
+  "osc:years": [],
+  "osc:numberOfProducts": 0,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

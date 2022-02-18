@@ -1,0 +1,203 @@
+{
+  "type": "Collection",
+  "id": "Oceans",
+  "stac_version": "1.0.0",
+  "description": "Society is facing today a number of global environmental challenges requiring the better understanding and monitoring of the interconnected Earth System processes. Ocean is one key gearing of this complex engine. However, knowledge gaps remain in order to better understand, characterize and monitor its role in all major Earth System global cycles (e.g. water, energy, gas, and in particular carbon, momentum cycles\u2026). To fill these gaps, dedicated research activities are needed, embracing a large number of disciplines as physical oceanography, biogeochemistry, ecology, and further exploring the interaction of the ocean with the other components of the Earth System, in particular the atmosphere, the land, and the cryosphere. To make the best of it, this research shall be based on the optimal and synergistic exploitation of all available observing systems (EO satellite data, in-situ and citizen observations), advanced modelling capabilities, interdisciplinary research and new technologies.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/bathymetry.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/geophysical-correction-ionosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/geophysical-correction-regional-tides.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/geophysical-correction-wet-troposphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/high-resolution-coastal-zone-altimetry.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/high-resolution-polar-ocean-altimetry.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/inorganic-carbon.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/inorganic-carbon.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/marine-habitats.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/nitrous-oxide.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/nutrients.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/ocean-colour.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/ocean-surface-heat-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/open-ocean-altimetry.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/oxygen.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/plankton.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/sea-level.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/sea-state.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/sea-surface-currents.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/sea-surface-salinity.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/sea-surface-stress.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/sea-surface-temperature.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/subsurface-currents.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/subsurface-salinity.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/subsurface-temperature.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/transient-tracers.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/water-level.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../variables/wind-stress.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:type": "Theme",
+  "osc:years": [
+    1985,
+    1993,
+    1995,
+    1997,
+    2002,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020
+  ],
+  "osc:numberOfProducts": 66,
+  "osc:numberOfVariables": 28,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

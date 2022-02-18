@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-63",
+  "properties": {
+    "start_datetime": "2012-01-01T00:00:00",
+    "end_datetime": "2014-01-01T00:00:00",
+    "title": "Satellite SARIN altimeter product_Coastal Ocean_Cryosat",
+    "description": "Satellite SARIN altimeter product generated from Cryosat data by  isardSAT",
+    "mission": "Cryosat",
+    "osc:project": "CryoSat Plus For Oceans (CP4O)",
+    "osc:themes": [
+      "Oceans",
+      "Cryosphere"
+    ],
+    "osc:variable": "Sea Level",
+    "osc:status": "COMPLETED",
+    "osc:region": "Caribbean",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2012-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -88.9200529235,
+      8.576579727,
+      -60.2254445602,
+      23.1790330316
+    ],
+    "coordinates": [
+      [
+        [
+          -88.9200529235,
+          8.576579727
+        ],
+        [
+          -60.2254445602,
+          8.576579727
+        ],
+        [
+          -60.2254445602,
+          23.1790330316
+        ],
+        [
+          -88.9200529235,
+          23.1790330316
+        ],
+        [
+          -88.9200529235,
+          8.576579727
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/docs/presentations/isardSAT_CP4O_SARinCoastal.pdf"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/sea-level.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/sea-level.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Sea level"
+}

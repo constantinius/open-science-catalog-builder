@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-165",
+  "properties": {
+    "start_datetime": null,
+    "end_datetime": null,
+    "title": "Webgeodyn Python package",
+    "description": "Webgeodyn is a Python package that provides web-based visualisations for Gauss coefficients of magnetic field and core flow. It can be installed and run locally on a variety of data formats. The tool is deployed on the website https://geodyn.univ-grenoble-alpes.fr to show visualisations on several magnetic field and core flow models (CHAOS, COV-OBS, pygeodyn results...).",
+    "mission": "SWARM",
+    "osc:project": "The 4D-Earth Swarm project",
+    "osc:themes": [
+      "Solid Earth",
+      "Magnetosphere_Ionosphere"
+    ],
+    "osc:variable": "Geomagnetic Field",
+    "osc:status": "COMPLETED",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://4d-earth-swarm.univ-grenoble-alpes.fr/"
+    },
+    {
+      "rel": "via",
+      "href": "https://gricad-gitlab.univ-grenoble-alpes.fr/Geodynamo/webgeodyn"
+    },
+    {
+      "rel": "via",
+      "href": "https://geodynamo.gricad-pages.univ-grenoble-alpes.fr/webgeodyn/index.html"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/geomagnetic-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/geomagnetic-field.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Geomagnetic Field"
+}

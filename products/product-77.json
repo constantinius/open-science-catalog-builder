@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-77",
+  "properties": {
+    "start_datetime": null,
+    "end_datetime": null,
+    "title": "S2 L2A uncertainty_Surface reflectance estimates_S2",
+    "description": "Surface reflectance estimates for the Sentinel 2 mission",
+    "mission": "Sentinel-2",
+    "osc:project": "L2A-RUT",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:variable": "Surface reflectance",
+    "osc:status": "ONGOING",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/l2a-rut/"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/surface-reflectance.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/surface-reflectance.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Surface reflectance"
+}

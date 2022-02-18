@@ -1,0 +1,62 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-167",
+  "properties": {
+    "start_datetime": null,
+    "end_datetime": null,
+    "title": "Ground Virtual Observatory Data CHAMP",
+    "description": "The files provided for each satellite include 1 month and 4 month values for observed field, core field (with estimates of magnetospheric and ionospheric fields removed) and SV (from annual difference of the core field data). Further specific details for this update are given in the associated README files. Contact: technical.officer@osc.org",
+    "mission": "CHAMP",
+    "osc:project": "The 4D-Earth Swarm project",
+    "osc:themes": [
+      "Solid Earth",
+      "Magnetosphere_Ionosphere"
+    ],
+    "osc:variable": "Geomagnetic Field",
+    "osc:status": "COMPLETED",
+    "osc:region": "",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": null
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://4d-earth-swarm.univ-grenoble-alpes.fr/"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.spacecenter.dk/files/magnetic-models/GVO/GVO_data_CHAMP.zip"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/geomagnetic-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/geomagnetic-field.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Geomagnetic Field"
+}

@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-136",
+  "properties": {
+    "start_datetime": "1985-01-01T00:00:00",
+    "end_datetime": "2020-01-01T00:00:00",
+    "title": "Gridded dataset_surface ocean carbonate system_Global Oceans_SMOS_S3",
+    "description": "A global gridded data set of the surface ocean carbonate system for seasonal to decadal studies of ocean acidification (v2021) (NCEI Accession 0220059). EO-based TA, DIC, pH, pCO2, Omega-ar",
+    "mission": "SMOS; Sentinel-3",
+    "osc:project": "Satellite Oceanographic Datasets for Acidification (OceanSODA)",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Inorganic Carbon",
+    "osc:status": "COMPLETED",
+    "osc:region": "Global Oceans",
+    "osc:type": "Product",
+    "sci:doi": "https://doi.org/10.25921/m5wx-ja34",
+    "datetime": "1985-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://esa-oceansoda.org"
+    },
+    {
+      "rel": "via",
+      "href": "https://doi.org/10.25921/m5wx-ja34"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/https%3A//doi.org/10.25921/m5wx-ja34"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/inorganic-carbon.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/inorganic-carbon.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Inorganic carbon"
+}

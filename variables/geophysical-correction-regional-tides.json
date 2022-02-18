@@ -1,0 +1,53 @@
+{
+  "type": "Collection",
+  "id": "Geophysical Correction - regional tides",
+  "stac_version": "1.0.0",
+  "description": "Radar altimetry",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-67.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "oceans",
+  "osc:type": "Variable",
+  "osc:years": [
+    2014
+  ],
+  "osc:numberOfProducts": 1,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-139",
+  "properties": {
+    "start_datetime": "2017-01-01T00:00:00",
+    "end_datetime": "2018-01-01T00:00:00",
+    "title": "Spectral albedo_Greenland_S3",
+    "description": "1 km Greenland daily, geotiff at https://github.com/AdrienWehrle/SICE/tree/master/masks",
+    "mission": "Sentinel-3",
+    "osc:project": "Sentinel-3 for Science, Land Study 1: Snow",
+    "osc:themes": [
+      "Cryosphere",
+      "Land"
+    ],
+    "osc:variable": "Albedo",
+    "osc:status": "COMPLETED",
+    "osc:region": "Greenland",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2017-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -73.709433726,
+      60.2878324851,
+      -12.713339976,
+      83.5902211563
+    ],
+    "coordinates": [
+      [
+        [
+          -73.709433726,
+          60.2878324851
+        ],
+        [
+          -12.713339976,
+          60.2878324851
+        ],
+        [
+          -12.713339976,
+          83.5902211563
+        ],
+        [
+          -73.709433726,
+          83.5902211563
+        ],
+        [
+          -73.709433726,
+          60.2878324851
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://snow.geus.dk/"
+    },
+    {
+      "rel": "via",
+      "href": "http://snow.geus.dk/"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/albedo.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/albedo.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Albedo"
+}

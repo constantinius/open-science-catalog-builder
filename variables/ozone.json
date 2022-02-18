@@ -1,0 +1,90 @@
+{
+  "type": "Collection",
+  "id": "Ozone",
+  "stac_version": "1.0.0",
+  "description": "Ozone (O3) is a naturally occurring trace gas in the stratosphere that inhibits harmful UV radiation from reaching Earth\u2019s surface. Ozone in the troposphere is a pollutant, harmful to all living things. Ozone is strongly linked to climate by its influence on Earth\u2019s radiation budget. The amount of ozone in the global stratosphere began to decrease in 1980 due to catalytic reactions with chlorine and bromine from man-made CFCs and other halocarbons. Severe, seasonal depletions over Antarctica (\u201cozone hole\u201d) have occurred annually since 1985. Thanks to the Montreal Protocol, an international treaty enacted to curtail the production and consumption of ozone-depleting substances, stratospheric ozone levels are expected to return to pre-depletion values. https://gcos.wmo.int/en/essential-climate-variables/ozone",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/communities/scientists/esa-atmosphere-science-cluster/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-23.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-148.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-154.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-155.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-156.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-157.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-158.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-159.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "atmosphere",
+  "osc:type": "Variable",
+  "osc:years": [
+    2004,
+    2018,
+    2019
+  ],
+  "osc:numberOfProducts": 8,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

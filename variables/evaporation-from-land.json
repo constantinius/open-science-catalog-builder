@@ -1,0 +1,46 @@
+{
+  "type": "Collection",
+  "id": "Evaporation from land",
+  "stac_version": "1.0.0",
+  "description": "Terrestrial evaporation is an important process in the global water cycle. It acts like an air conditioner for the surface, as it absorbs radiation (latent heat) that otherwise would be used to warm up the atmosphere (sensible heat). At the same time, water vapour acts as a greenhouse gas by trapping radiation in the lower atmosphere. Evaporation acts as a climate change diagnostic, being very sensitive to changes in atmospheric composition and the Earth's radiation balance. Moreover, it plays a crucial role in dampening the intensification of drought and heatwave events, it is a pivotal variable for agriculture that determines the needs for irrigation, and it constrains human water management. https://gcos.wmo.int/en/essential-climate-variables/evaporation",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "land",
+  "osc:type": "Variable",
+  "osc:years": [],
+  "osc:numberOfProducts": 0,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-9",
+  "properties": {
+    "start_datetime": null,
+    "end_datetime": null,
+    "title": "Particulate backscatter: bbp_Global_AEOLUS",
+    "description": "Sub-surface (in-water) hemispheric particulate backscatter coefficient [m-1]",
+    "mission": "AEOLUS",
+    "osc:project": "AEOLUS+ INNOVATION - CDOM-PROXY RETRIEVAL FROM AEOLUS OBSERVATIONS (COLOR)",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Ocean colour",
+    "osc:status": "Planned",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": null
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://ricerca.ismar.cnr.it/color/"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/ocean-colour.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/ocean-colour.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Ocean colour"
+}

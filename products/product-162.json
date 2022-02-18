@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-162",
+  "properties": {
+    "start_datetime": "2014-01-01T00:00:00",
+    "end_datetime": "2017-01-01T00:00:00",
+    "title": "Cluster/Swarm A and C conjunctions",
+    "description": "CSV file with a list of all conjunctions between Swarm-Alpha and Cluster-4. Conjunctions were identified by NASA\u2019s \u00abSatellite Situation Center Web\u00bb Query tool in Nov 2018.",
+    "mission": "SWARM",
+    "osc:project": "Swarm+ Coupling High-Low Atmosphere Interactions: Ion Outflow",
+    "osc:themes": [
+      "Magnetosphere_Ionosphere"
+    ],
+    "osc:variable": "Geomagnetic Field",
+    "osc:status": "COMPLETED",
+    "osc:region": "",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2014-01-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://swarmoutflow.w.uib.no/"
+    },
+    {
+      "rel": "via",
+      "href": "http://swarmoutflow.w.uib.no/files/2020/05/Cluster4-swarmAConjs-2014-2017_NaNless_noDubs.txt"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/geomagnetic-field.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/geomagnetic-field.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Geomagnetic Field"
+}

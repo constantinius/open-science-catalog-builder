@@ -1,0 +1,80 @@
+{
+  "type": "Collection",
+  "id": "Albedo",
+  "stac_version": "1.0.0",
+  "description": "The land surface albedo is the ratio of the radiant flux reflected from Earth\u2019s surface to the incident flux. It is a key forcing parameter controlling the partitioning of radiative energy between the atmospheric and surface. In the case of vegetation, a reference surface is typically defined at or near the top of the canopy and must be specified explicitly. Surface albedo depends on natural variations, highly variable in space and time as a result of terrestrial properties changes, and with illumination conditions and human activities and is a sensitive indicator of environmental vulnerability. https://gcos.wmo.int/en/essential-climate-variables/albedo",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-56.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-105.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-106.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-108.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-138.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-139.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "land",
+  "osc:type": "Variable",
+  "osc:years": [
+    2017,
+    2019,
+    2020
+  ],
+  "osc:numberOfProducts": 6,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

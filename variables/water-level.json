@@ -1,0 +1,105 @@
+{
+  "type": "Collection",
+  "id": "Water Level",
+  "stac_version": "1.0.0",
+  "description": "The great majority of the World's population lives alongside, and is often dependent upon, continental water bodies. Inland water bodies \u2013 rivers, lakes, wetlands and floodplains \u2013 play important roles in a variety of interdisciplinary applications. They are a source of both water and protein, often a means of navigation and for the production of hydroelectric power, and have been shown to be good proxy indicators of local and regional climatic change. Routine monitoring of these basins has further importance for regional and continental-scale hydrological, biochemical and climatological studies concerning, for example, the measurement of river discharges, the production of wetland methane, and the estimation of evaporation losses for land/atmosphere interactions. Changes in the stored volumes of surface water also have geodynamical implications for the Earth\u2019s rotation and gravity, and for estimating the global water mass in relation to sea-level changes.\u00a0",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-109.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-110.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-111.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-112.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-113.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-114.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-115.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-116.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-117.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-118.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-119.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "oceans",
+  "osc:type": "Variable",
+  "osc:years": [
+    2016,
+    2017,
+    2018
+  ],
+  "osc:numberOfProducts": 11,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

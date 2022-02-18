@@ -1,0 +1,61 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-56",
+  "properties": {
+    "start_datetime": "2019-01-01T00:00:00",
+    "end_datetime": "2019-01-01T00:00:00",
+    "title": "Albedo_Regional_S3A/SLSTR",
+    "description": "Surface (albedo) products derived from S3A/SLSTR observations retrieved using the same radiative transfer physics and assumptions. The retrieval is based on the CISAR (Combined Inversion of Surface and Atmosphere pRoperties) algorithm. ",
+    "mission": "Sentinel-3",
+    "osc:project": "ConsIstent Retrieval of Cloud Aerosol Surface",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:variable": "Albedo",
+    "osc:status": "ONGOING",
+    "osc:region": "Regional",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2019-01-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.circas.eu/"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.circas.eu/index.php#results"
+    },
+    {
+      "rel": "via",
+      "href": "http://www.circas.eu/index.php#results"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/albedo.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/albedo.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Albedo"
+}

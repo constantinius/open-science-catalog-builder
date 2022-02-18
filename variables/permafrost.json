@@ -1,0 +1,46 @@
+{
+  "type": "Collection",
+  "id": "Permafrost",
+  "stac_version": "1.0.0",
+  "description": "The properties of frozen ground react sensitively to climate and environmental changes in high-latitude and high-altitude regions. This includes the temperature distribution in the permafrost layer and the depth of the overlying active layer where seasonal freezing and thawing occur. Changes in these quantities have important impacts on terrain stability, coastal erosion, surface and subsurface water, the carbon cycle and vegetation development. https://gcos.wmo.int/en/essential-climate-variables/permafrost",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2019/10/11/a-collaboration-on-polar-science-just-kicked-off/"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "cryosphere",
+  "osc:type": "Variable",
+  "osc:years": [],
+  "osc:numberOfProducts": 0,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

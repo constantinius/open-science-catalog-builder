@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-159",
+  "properties": {
+    "start_datetime": "2004-01-01T00:00:00",
+    "end_datetime": "2020-01-01T00:00:00",
+    "title": "Stratospheric ozone column from limb satellites_Global",
+    "description": "Stratospheric ozone column from limb satellites",
+    "mission": "OMI",
+    "osc:project": "SUNLIT - Synergy of Using Nadir and Limb Instruments for Tropospheric ozone monitoring",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:variable": "Ozone",
+    "osc:status": "COMPLETED",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2004-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://nsdc.fmi.fi/data/data_sunlit.php"
+    },
+    {
+      "rel": "via",
+      "href": "https://nsdc.fmi.fi/data/data_sunlit.php"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/ozone.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/ozone.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Ozone"
+}

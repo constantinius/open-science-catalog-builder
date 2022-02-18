@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-51",
+  "properties": {
+    "start_datetime": "2011-01-01T00:00:00",
+    "end_datetime": "2020-01-01T00:00:00",
+    "title": "Sea ice freeboard and thickness_TFMRA50 and AMSR climatology snow depth_Antarctic_CryoSat-2/SARAL",
+    "description": "CryoSat-2 sea ice freeboard and thickness from heuristic retracker TFMRA50 and AMSR climatology snow depth in the Antarctic. c2esaD_SIT_fb_snow-AMSR-clim_sh_2011_2020_ease2_w25000.nc",
+    "mission": "CryoSat-2; SARAL/ALtiKa",
+    "osc:project": "CASSIS (Climate Altimetric Studies with Sea Ice and Snow)",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Sea ice thickness",
+    "osc:status": "COMPLETED",
+    "osc:region": "Antarctica",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2011-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -80.0,
+      180.0,
+      -61.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -80.0
+        ],
+        [
+          180.0,
+          -61.0
+        ],
+        [
+          -180.0,
+          -61.0
+        ],
+        [
+          -180.0,
+          -80.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/wp-content/uploads/2020/12/Florent-Garnier-LPF_03-12-2020.pdf"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/sea-ice-thickness.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/sea-ice-thickness.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Sea Ice thickness"
+}

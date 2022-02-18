@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-177",
+  "properties": {
+    "start_datetime": "2009-01-01T00:00:00",
+    "end_datetime": "2020-01-01T00:00:00",
+    "title": "GOSAT PBL XH2O and Stable Water Water Vapour Isotopologues_Global",
+    "description": "L2 product of column water vapour (XH2O) and satble isotope XHDO, partial column water vapour from the planetary boundary layer XH2O_PBL",
+    "mission": "GOSAT",
+    "osc:project": "WATER CYCLE CHANGES CHARACTERISED FROM ATMOSPHERIC MOISTURE RECYCLING (WEATHER)",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:variable": "Water vapour",
+    "osc:status": "COMPLETED",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2009-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/communities/scientists/living-planet-fellowship/"
+    },
+    {
+      "rel": "via",
+      "href": "https://archive.ceda.ac.uk/"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/carbon-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/carbon-flux.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Carbon Flux"
+}

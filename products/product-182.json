@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-182",
+  "properties": {
+    "start_datetime": "2019-01-01T00:00:00",
+    "end_datetime": "2019-01-01T00:00:00",
+    "title": "Doppler derived surface current_Agulhas_S1",
+    "description": "Sentinel-1 IW Ocean Surface Current Radial Velocity product in Agulhas current",
+    "mission": "Sentinel-1",
+    "osc:project": "World Ocean circulation",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Sea surface currents",
+    "osc:status": "COMPLETED",
+    "osc:region": "Agulhas",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2019-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      19.9931766896,
+      -34.845355958,
+      20.0417410996,
+      -34.8205312217
+    ],
+    "coordinates": [
+      [
+        [
+          19.9931766896,
+          -34.845355958
+        ],
+        [
+          20.0417410996,
+          -34.845355958
+        ],
+        [
+          20.0417410996,
+          -34.8205312217
+        ],
+        [
+          19.9931766896,
+          -34.8205312217
+        ],
+        [
+          19.9931766896,
+          -34.845355958
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/Products"
+    },
+    {
+      "rel": "via",
+      "href": "https://drive.google.com/file/d/1X2RyNDp550pSnQik6tX0g2WwsWiS6ioz/view?usp=sharing"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/sea-surface-currents.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/sea-surface-currents.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Sea surface currents"
+}

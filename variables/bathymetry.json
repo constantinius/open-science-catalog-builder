@@ -1,0 +1,59 @@
+{
+  "type": "Collection",
+  "id": "Bathymetry",
+  "stac_version": "1.0.0",
+  "description": "Underwater depth and information on the morphology of the seafloor",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-65.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-68.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "oceans",
+  "osc:type": "Variable",
+  "osc:years": [
+    2012,
+    2014
+  ],
+  "osc:numberOfProducts": 2,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

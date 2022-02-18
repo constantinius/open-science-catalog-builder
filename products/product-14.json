@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-14",
+  "properties": {
+    "start_datetime": "2016-01-01T00:00:00",
+    "end_datetime": "2016-01-01T00:00:00",
+    "title": "Glacier surface flow velocity_SwissAlps_S1/2",
+    "description": "Glacier surface flow velocity. Most of the database has been submitted to Pangaea, where the submission is being processed. Some parts of the database fall under the copyright of the Swiss national institute for topography and were therefore only provided as point shapefiles instead of polygons. All the necessary information to reconstruct the study are provided.",
+    "mission": "Sentinel-1; Sentinel-2",
+    "osc:project": "AlpGlacier",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Glaciers",
+    "osc:status": "Planned",
+    "osc:region": "Switzerland",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2016-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      5.95591129,
+      45.81799493,
+      10.49229402,
+      47.80846475
+    ],
+    "coordinates": [
+      [
+        [
+          5.95591129,
+          45.81799493
+        ],
+        [
+          10.49229402,
+          45.81799493
+        ],
+        [
+          10.49229402,
+          47.80846475
+        ],
+        [
+          5.95591129,
+          47.80846475
+        ],
+        [
+          5.95591129,
+          45.81799493
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://alpglacier.geo.uzh.ch/"
+    },
+    {
+      "rel": "via",
+      "href": "https://alpglacier.geo.uzh.ch/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://onlinelibrary.wiley.com/doi/10.1002/esp.5194"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/glaciers.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/glaciers.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Glaciers"
+}

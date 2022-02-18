@@ -1,0 +1,154 @@
+{
+  "type": "Collection",
+  "id": "Aerosols",
+  "stac_version": "1.0.0",
+  "description": "Atmospheric aerosols are minor constituents of the atmosphere by mass, but a critical component in terms of impacts on the climate and especially climate changes. Aerosols influence the global radiation balance by directly scattering solar radiation and indirectly through influencing cloud reflectivity, cloud cover and cloud lifetime. https://gcos.wmo.int/en/essential-climate-variables/aerosols",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/communities/scientists/esa-atmosphere-science-cluster/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-11.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-12.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-55.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-78.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-79.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-82.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-83.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-84.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-85.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-86.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-89.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-90.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-93.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-94.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-95.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-96.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-97.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-98.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-99.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-100.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "atmosphere",
+  "osc:type": "Variable",
+  "osc:years": [
+    2006,
+    2007,
+    2008,
+    2013,
+    2017,
+    2018,
+    2019
+  ],
+  "osc:numberOfProducts": 20,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

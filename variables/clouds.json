@@ -1,0 +1,79 @@
+{
+  "type": "Collection",
+  "id": "Clouds",
+  "stac_version": "1.0.0",
+  "description": "The variable properties of clouds determines the clouds profound effects on radiation and precipitation. They are influenced by and in turn influence the motion of the atmosphere on many scales. They are affected by the presence of aerosols, and modify atmospheric composition in several ways, including the depletion of ozone when they form in the polar stratosphere. https://gcos.wmo.int/en/essential-climate-variables/clouds",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/communities/scientists/esa-atmosphere-science-cluster/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-80.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-81.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-87.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-88.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-91.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-92.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "atmosphere",
+  "osc:type": "Variable",
+  "osc:years": [
+    2006,
+    2008
+  ],
+  "osc:numberOfProducts": 6,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

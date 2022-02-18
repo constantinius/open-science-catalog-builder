@@ -1,0 +1,115 @@
+{
+  "type": "Collection",
+  "id": "River discharge",
+  "stac_version": "1.0.0",
+  "description": "River-discharge measurements have essential direct applications for water management and related services, including flood protection. They are needed in the longer term to help identify and adapt to some of the most significant potential effects of climate change. The flow of freshwater from rivers into the oceans also needs to be monitored because it reduces ocean salinity, and changes in flow may thereby influence the thermohaline circulation. https://gcos.wmo.int/en/essential-climate-variables/rivers",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2020/01/31/a-collaboration-on-carbon-science-just-kicked-off/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-120.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-121.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-122.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-123.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-124.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-125.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-126.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-127.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-128.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-129.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-130.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-131.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-132.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "land",
+  "osc:type": "Variable",
+  "osc:years": [
+    2016,
+    2017,
+    2018
+  ],
+  "osc:numberOfProducts": 13,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

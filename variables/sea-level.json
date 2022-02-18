@@ -1,0 +1,186 @@
+{
+  "type": "Collection",
+  "id": "Sea level",
+  "stac_version": "1.0.0",
+  "description": "Sea Level is one of the primary indicators of global climate change. Change in the global mean sea level provides a measure of the net change in ocean mass due to melting of glaciers and ice sheets, and net change in ocean volume due to thermal expansion. Sea level observations characterize inter-seasonal variability such as ENSO. On the regional scales, changes in sea level can be far larger than the globally averaged value due to changes in temperature, salinity and circulation. Along many continental margins vertical land displacement associated with crustal adjustments to past and current land ice melt also cause regional variations in apparent sea level independent of the ocean. Coastal sea level change is a major driver of societal impacts. https://gcos.wmo.int/en/essential-climate-variables/sea-level",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2019/11/11/collaboration-ocean-science/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-27.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-28.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-29.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-30.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-31.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-32.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-33.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-34.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-35.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-36.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-37.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-38.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-39.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-40.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-46.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-47.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-48.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-49.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-59.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-60.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-61.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-62.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-63.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-64.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-101.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-102.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "oceans",
+  "osc:type": "Variable",
+  "osc:years": [
+    1993,
+    1995,
+    2002,
+    2010,
+    2011,
+    2012,
+    2013,
+    2017,
+    2020
+  ],
+  "osc:numberOfProducts": 26,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

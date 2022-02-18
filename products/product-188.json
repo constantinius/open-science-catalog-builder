@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-188",
+  "properties": {
+    "start_datetime": "2011-01-01T00:00:00",
+    "end_datetime": "2018-01-01T00:00:00",
+    "title": "Stokes drift estimation_Atlantic Ocean",
+    "description": "Stokes drift estimation for the Atlantic",
+    "mission": "",
+    "osc:project": "World Ocean circulation",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Sea surface currents",
+    "osc:status": "Planned",
+    "osc:region": "Atlantic Ocean",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2011-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -89.4913889096,
+      -57.9204174532,
+      12.2761059784,
+      49.8937187295
+    ],
+    "coordinates": [
+      [
+        [
+          -89.4913889096,
+          -57.9204174532
+        ],
+        [
+          12.2761059784,
+          -57.9204174532
+        ],
+        [
+          12.2761059784,
+          49.8937187295
+        ],
+        [
+          -89.4913889096,
+          49.8937187295
+        ],
+        [
+          -89.4913889096,
+          -57.9204174532
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/Products"
+    },
+    {
+      "rel": "via",
+      "href": "https://drive.google.com/file/d/1BKXPowKI8Tpnv2zUmbd3Iy4BEG8GDG0Q/view?usp=sharing"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/sea-surface-currents.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/sea-surface-currents.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Sea surface currents"
+}

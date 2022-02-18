@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-176",
+  "properties": {
+    "start_datetime": "2003-01-01T00:00:00",
+    "end_datetime": "2021-01-01T00:00:00",
+    "title": "Gross and net Carbon Flux Estimates_Fluxcom2.0 Carbon",
+    "description": "Data-driven gross and net carbon flux estimates from machine-learning based on eddy-covariance measurements and space-born measurements, where EO data streams from different sensors and spectral regions are integrated with the specific objective of a more accurate representation of drought effects on carbon fluxes.",
+    "mission": "Sentinel-5p; SMOS; MeteoSat;  MODIS",
+    "osc:project": "VAD3EMECUM. Vegetation and drought: towards improved data-driven estimated of ecosystem carbon fluxes under moisture stress",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:variable": "Carbon Flux",
+    "osc:status": "Planned",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2003-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/vad3mecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/vad3mecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress/"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/carbon-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/carbon-flux.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Carbon Flux"
+}

@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-178",
+  "properties": {
+    "start_datetime": "2017-01-01T00:00:00",
+    "end_datetime": "2020-01-01T00:00:00",
+    "title": "HDO/H2O non-scattering product_S5p-TROPOMI",
+    "description": "total columns of H2O and HDO for clear-sky scenes",
+    "mission": "Sentinel-5p",
+    "osc:project": "WIFT: Water vapour Isotopologues From TROPOMI",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:variable": "Water vapour",
+    "osc:status": "COMPLETED",
+    "osc:region": "Global",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2017-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/wift-water-vapour-isotopologues-from-tropomi/"
+    },
+    {
+      "rel": "via",
+      "href": "ftp://ftp.sron.nl/open-access-data-2/TROPOMI/tropomi/hdo/9_1/"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/carbon-flux.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/carbon-flux.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Carbon Flux"
+}

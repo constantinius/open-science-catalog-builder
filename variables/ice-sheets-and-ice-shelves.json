@@ -1,0 +1,205 @@
+{
+  "type": "Collection",
+  "id": "Ice sheets and ice shelves",
+  "stac_version": "1.0.0",
+  "description": "The understanding of the timescale of ice sheet response to climate change has changed dramatically over the last decade. Rapid changes in ice-sheet mass have surely contributed to abrupt changes in climate and sea level in the past. https://gcos.wmo.int/en/essential-climate-variables/ice-sheets-ice-shelves",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2019/10/11/a-collaboration-on-polar-science-just-kicked-off/"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-3.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-4.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-5.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-6.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-7.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-70.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-71.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-72.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-73.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-141.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-142.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-149.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-150.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-151.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-152.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-189.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-190.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-191.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-192.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-193.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-194.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-195.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-196.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-197.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-198.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-199.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-200.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-201.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-202.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-203.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../products/product-204.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [],
+  "osc:theme": "cryosphere",
+  "osc:type": "Variable",
+  "osc:years": [
+    2010,
+    2011,
+    2013
+  ],
+  "osc:numberOfProducts": 31,
+  "extent": {
+    "spatial": {
+      "bbox": [
+        -180,
+        -90,
+        180,
+        90
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "license": "proprietary"
+}

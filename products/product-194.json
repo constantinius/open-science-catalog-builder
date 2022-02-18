@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-194",
+  "properties": {
+    "start_datetime": "2010-01-01T00:00:00",
+    "end_datetime": "2021-01-01T00:00:00",
+    "title": "Land Ice Elevation Thematic Point Product(EOLIS POINTS)_Arctic Canada North_Cryosat",
+    "description": "Point product containing a cloud of elevations with an associated uncertainty in geo spatial units. The thematic point product is published on a monthly basis once the Uncertainty calculation is complete.",
+    "mission": "CryoSat",
+    "osc:project": "CryoTop Evolution",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:variable": "Ice sheets and ice shelves",
+    "osc:status": "COMPLETED",
+    "osc:region": "Arctic Canada North",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2010-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -118.0,
+      73.0,
+      -63.0,
+      84.0
+    ],
+    "coordinates": [
+      [
+        [
+          -118.0,
+          73.0
+        ],
+        [
+          -63.0,
+          73.0
+        ],
+        [
+          -63.0,
+          84.0
+        ],
+        [
+          -118.0,
+          84.0
+        ],
+        [
+          -118.0,
+          73.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.cryotempo-eolis.org"
+    },
+    {
+      "rel": "via",
+      "href": "ftp://science-pds.cryosat.esa.int/TEMPO_SWATH_POINT/"
+    },
+    {
+      "rel": "via",
+      "href": "https://cryotempo-eolis.org/wp-content/uploads/2021/12/CryoTempo-ThematicProduct-ProductHandbook_Issue2.1.pdf"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/ice-sheets-and-ice-shelves.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/ice-sheets-and-ice-shelves.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Ice sheets and ice shelves"
+}

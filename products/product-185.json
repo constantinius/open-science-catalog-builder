@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-185",
+  "properties": {
+    "start_datetime": "2010-01-01T00:00:00",
+    "end_datetime": "2020-01-01T00:00:00",
+    "title": "Oceanic/current fronts_Gibraltar",
+    "description": "Fronts derived from remote sensing SST observations by SEVIRI L3C from OSISAF and microwave  OI L4 SST from REMSS, over Agulhas region, (Western only for SEVIRI) North Atlantic.",
+    "mission": "MSG-SEVIRI",
+    "osc:project": "World Ocean circulation",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:variable": "Sea surface currents",
+    "osc:status": "COMPLETED",
+    "osc:region": "Gibraltar",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2010-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -5.4006553,
+      36.05875496,
+      -5.27666114,
+      36.15503755
+    ],
+    "coordinates": [
+      [
+        [
+          -5.4006553,
+          36.05875496
+        ],
+        [
+          -5.27666114,
+          36.05875496
+        ],
+        [
+          -5.27666114,
+          36.15503755
+        ],
+        [
+          -5.4006553,
+          36.15503755
+        ],
+        [
+          -5.4006553,
+          36.05875496
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.worldoceancirculation.org/Products"
+    },
+    {
+      "rel": "via",
+      "href": "https://drive.google.com/file/d/1GIxRA1xJ5I-ch7aXSqh9I_y-YGBe3xfM/view?usp=sharing"
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/sea-surface-currents.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/sea-surface-currents.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Sea surface currents"
+}

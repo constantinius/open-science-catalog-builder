@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-66",
+  "properties": {
+    "start_datetime": "2011-01-01T00:00:00",
+    "end_datetime": "2021-01-01T00:00:00",
+    "title": "Wet Troposphere Correction_for Cryosat",
+    "description": "Wet Troposphere Correction product generated for application to Cryosat data by U Porto",
+    "mission": "Cryosat",
+    "osc:project": "CryoSat Plus For Oceans (CP4O)",
+    "osc:themes": [
+      "Oceans",
+      "Cryosphere"
+    ],
+    "osc:variable": "Geophysical Correction - wet troposphere",
+    "osc:status": "COMPLETED",
+    "osc:region": "Global Oceans",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2011-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      -180.0,
+      -90.0,
+      180.0,
+      90.0
+    ],
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/data_p23.html"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/geophysical-correction-wet-troposphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/geophysical-correction-wet-troposphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Geophysical Correction - wet troposphere"
+}

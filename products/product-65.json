@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "product-65",
+  "properties": {
+    "start_datetime": "2012-01-01T00:00:00",
+    "end_datetime": "2013-01-01T00:00:00",
+    "title": "Satellite SAR altimeter product_Sea Floor Mapping_Oceania_Cryosat",
+    "description": "Satellite SAR altimeter product generated from Cryosat data by DTU Space",
+    "mission": "Cryosat",
+    "osc:project": "CryoSat Plus For Oceans (CP4O)",
+    "osc:themes": [
+      "Oceans",
+      "Cryosphere"
+    ],
+    "osc:variable": "Bathymetry",
+    "osc:status": "COMPLETED",
+    "osc:region": "Oceania",
+    "osc:type": "Product",
+    "sci:doi": "",
+    "datetime": "2012-01-01T00:00:00Z"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "bbox": [
+      94.0869566999,
+      -48.3204367898,
+      179.6468967167,
+      10.3846296442
+    ],
+    "coordinates": [
+      [
+        [
+          94.0869566999,
+          -48.3204367898
+        ],
+        [
+          179.6468967167,
+          -48.3204367898
+        ],
+        [
+          179.6468967167,
+          10.3846296442
+        ],
+        [
+          94.0869566999,
+          10.3846296442
+        ],
+        [
+          94.0869566999,
+          -48.3204367898
+        ]
+      ]
+    ]
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/CP4O/data_p20.html"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "cite-as",
+      "href": "https://doi.org/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../variables/bathymetry.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../variables/bathymetry.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json"
+  ],
+  "collection": "Bathymetry"
+}
