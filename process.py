@@ -4,6 +4,7 @@ from datetime import datetime
 import re
 import os
 import shutil
+from typing import List, Optional, TypedDict
 
 import pystac
 import pystac.extensions.scientific
@@ -151,7 +152,7 @@ def project_to_item(obj):
 
 
 def theme_to_collection(obj):
-    identifier = obj["theme"]  # RE_ID_REP.sub('', obj["theme"].strip())
+    identifier = obj["theme"].strip()
     collection = pystac.Collection(
         identifier,
         obj["description"],
@@ -174,7 +175,7 @@ def theme_to_collection(obj):
 
 
 def variable_to_collection(obj):
-    identifier = obj["variable"]  # RE_ID_REP.sub('', obj["variable"].strip())
+    identifier = obj["variable"].strip()
     collection = pystac.Collection(
         identifier,
         obj["variable description"],
@@ -311,12 +312,60 @@ def main(variables_file, themes_file, projects_file, products_file, out_dir):
     }
 
 
+
+
+
+    metrics = {
+        "id": catalog.id,
+        "summary": {
+            "years": catalog.extra_fields["osc:years"],
+            "numberOfProducts": catalog.extra_fields["osc:numberOfProducts"],
+            "numberOfVariables": catalog.extra_fields["osc:numberOfVariables"],
+            "numberOfThemes": catalog.extra_fields["osc:numberOfThemes"],
+        },
+        "themes": [
+            {
+                "name": theme_coll.id,
+                "description": theme_coll.description,
+                "image": "...",
+                "website": theme_coll.get_single_link(pystac.RelType.VIA).get_href(),
+                # "technicalOfficer": theme_coll.extra_fields["osc:technical_officer"]["name"],
+                "summary": {
+                    "years": theme_coll.extra_fields["osc:years"],
+                    "numberOfProducts": theme_coll.extra_fields["osc:numberOfProducts"],
+                    "numberOfVariables": theme_coll.extra_fields["osc:numberOfVariables"],
+                },
+                "variables": [
+                    {
+                        "name": var_coll.id,
+                        "description": var_coll.description,
+                        "summary": {
+                            "years": var_coll.extra_fields["osc:years"],
+                            "numberOfProducts": var_coll.extra_fields["osc:numberOfProducts"],
+                        }
+                    }
+                    for var_coll in theme_coll.get_collections()
+                ]
+            }
+            for theme_coll in catalog.get_collections()
+        ]
+    }
+
+    from pprint import pprint
+    pprint(metrics)
+
+    os.makedirs(out_dir)
+    os.chdir(out_dir)
+
+    with open("metrics.json", "w") as f:
+        json.dump(metrics, f, indent=4)
+
     # catalog.describe(True)
 
     # catalog.save(pystac.CatalogType.SELF_CONTAINED, dest_href='dist/')
 
-    os.makedirs(out_dir)
-    os.chdir(out_dir)
+    # create the output directory and switch there to allow a clean build
+
 
     catalog.normalize_and_save(
         "",
@@ -328,8 +377,8 @@ def main(variables_file, themes_file, projects_file, products_file, out_dir):
         # )
 
         strategy=pystac.layout.CustomLayoutStrategy(
-            collection_func=lambda coll, parent_dir, is_root: f"{coll.extra_fields['osc:type']}s/{slugify(coll.id)}.json",
-            item_func=lambda item, parent_dir: f"{item.properties['osc:type']}s/{item.id}.json",
+            collection_func=lambda coll, parent_dir, is_root: f"{coll.extra_fields['osc:type'].lower()}s/{slugify(coll.id)}.json",
+            item_func=lambda item, parent_dir: f"{item.properties['osc:type'].lower()}s/{item.id}.json",
         )
     )
 
