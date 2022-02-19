@@ -22,7 +22,7 @@ jobs:
         run: |
           cd stac-browser/
           npm install
-          npm run build -- --CATALOG_URL="https://constantinius.github.io/open-science-catalog-builder/catalog.json" --PATH_PREFIX="/open-science-catalog-builder/"
+          npm run build -- --CATALOG_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/$(echo '${{ github.repository }}' | awk -F '/' '{print $1}')/catalog.json" --PATH_PREFIX="/$(echo '${{ github.repository }}' | awk -F '/' '{print $1}')/"
           cp -r dist/* ../dist
           cd ..
       - name: Deploy
