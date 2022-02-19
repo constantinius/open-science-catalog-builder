@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-105",
+  "properties": {
+    "start_datetime": "2019-02-22T00:00:00",
+    "end_datetime": "2020-11-30T00:00:00",
+    "title": "SWARM+ COUPLING: HIGH-LOW ATMOSPHERE INTERACTIONS: VERtical coupling in Earth's Atmosphere at mid and high latitudes (VERA)",
+    "description": "The Earth's atmosphere consists of several layers that differ in physical properties. The goal of the vertical coupling in Earth\u2019s atmosphere at mid and high latitudes (VERA) project is to understand the coupling mechanisms by which the upper atmosphere (ca. 85-600 km) is influenced by the processes in the regions below. Our focus is on sudden stratospheric warming (SSW) events, during which the middle atmosphere (10-85 km) is highly disturbed. The ionosphere response to SSWs has previously been studied for low latitude regions, where forcing from the magnetosphere is indirect and relatively modest. VERA will assess the importance of vertical atmospheric coupling at mid- and high- latitudes, using observations from low Earth orbit (LEO) satellites and ground-based radars, as well as state-of-the-art numerical models. The conclusions derived from the analyses of these data can lead to a significant breakthrough on driving forces of the ionospheric weather.",
+    "osc:themes": [
+      "Magnetosphere_Ionosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "HELMHOLTZ-ZENTRUM POTSDAM \u2013 DEUTSCHES GEOFORSCHUNGZENTRUM (GFZ) (DE), Research Centre Rez (CZ), UNIVERSITY OF NEW BRUNSWICK (CA)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-02-22T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.gfz-potsdam.de/en/section/geomagnetism/projects/archive/vera-vertical-coupling-in-earths-atmosphere-at-mid-and-high-latitudes/#c65013"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/swarm-coupling-high-low-atmosphere-interactions-vertical-coupling-in-earths-atmosphere-at-mid-and-high-latitudes-vera/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Magnetosphere_Ionosphere"
+}

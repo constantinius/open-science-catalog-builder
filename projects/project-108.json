@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-108",
+  "properties": {
+    "start_datetime": "2019-10-22T00:00:00",
+    "end_datetime": "2020-11-12T00:00:00",
+    "title": "Using deep learning with CryoSat radar altimetry to adjust elevations and map SURFace penetration (CryoSURF)",
+    "description": "Using CryoSat-2 interferometric synthetic aperture radar (SARIn) altimetry together with NASA\u201a\u00c4\u00f4s operation IceBridge and IceSat-2 Lidar data in a multi-layer neural network (NN) in order to enhance CryoSat-2 SARIn swath measurements.",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF EDINBURGH (GB), EARTHWAVE Ltd (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-10-22T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://cryosurf.org/datasets/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/cryosurf/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

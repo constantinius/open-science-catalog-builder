@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-83",
+  "properties": {
+    "start_datetime": "2015-09-21T00:00:00",
+    "end_datetime": "2019-09-30T00:00:00",
+    "title": "Sentinel-3 Performance Improvement for ICE Sheets (SPICE)",
+    "description": "Development and evaluation of novel SAR altimetry processing methodologies over ice sheets, primarily using dedicated CryoSat-2 SAR acquisitions made at several sites in Antarctica and in Greenland",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF LEEDS, SCHOOL OF EARTH AND ENVIRONMENT (GB), CLS COLLECTE LOCALISATION SATELLITES (FR), isardSAT UK (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2015-09-21T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.seom-spice.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-3-performance-improvement-for-ice-sheets-spice/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

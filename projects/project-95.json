@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-95",
+  "properties": {
+    "start_datetime": "2014-03-19T00:00:00",
+    "end_datetime": "2018-02-28T00:00:00",
+    "title": "SMOS+ Med: Sea Surface Salinity in the Mediterranean",
+    "description": "This project aimed at calculating a sea surface salinity (SSS) field over the north Atlantic Ocean and the Mediterranean Sea for the previous 6 years, using a combination of techniques developed by the partners of the project, GEHR (Belgium) and BEC (Spain). This approach combined a debiased non-Bayesian retrieval of the SSS, the use of DINEOF (Data Interpolating Empirical Orthogonal Functions) to correct for systematic errors, and multifractal fusion to obtain a L4 dataset.The resulting dataset has been compared to in situ data, demonstrating that the new methodology reduces by half the error with respect to previous estimates of SSS in the Mediterranean Sea. ",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF LIEGE (BE), INSTITUTO DE CIENCIAS DEL MAR - CSIC (ES)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2014-03-19T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/pathfinders-sea-surface-salinity-in-the-mediterranean/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/pathfinders-sea-surface-salinity-in-the-mediterranean/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

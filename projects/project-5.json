@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-5",
+  "properties": {
+    "start_datetime": "2020-11-11T00:00:00",
+    "end_datetime": "2022-05-31T00:00:00",
+    "title": "AEOLUS+ INNOVATION - EXPRO+ IMPROVING DUST MONITORING AND FORECASTING THROUGH AEOLUS WIND DATA ASSIMILATION (NEWTON)",
+    "description": "Demonstrate the potential improvement of short-term dust forecasts when the numerical simulations are initialized from meteorological fields in which Aeolus observations have been assimilated. ",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "NATIONAL OBSERVATORY OF ATHENS (GR),The Cyprus Institute (CY)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-11-11T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://newton.space.noa.gr/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-expro-newton/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

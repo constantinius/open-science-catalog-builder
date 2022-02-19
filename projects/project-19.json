@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-19",
+  "properties": {
+    "start_datetime": "2016-07-12T00:00:00",
+    "end_datetime": "2018-09-30T00:00:00",
+    "title": "Arctic+Snow on Sea Ice",
+    "description": "The study aimed at exploring, developing and validating different approaches to retrieve snow thickness over sea ice; to develop a new prototype processor; and to produce and validate an experimental dataset of snow thickness over the Arctic.",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "ISARDSAT SP. Z O.O. (PL), FINNISH METEOROLOGICAL INSTITUTE (FI), MULLARD SPACE SCIENCE LABORATORY-UNIVERSITY COLLEGE LONDON (GB), UNIVERSITY OF YORK, CENTRE FOR RESEARCH IN EARTH AND SPACE SCIENCE (CA)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2016-07-12T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.isardsat.space/project/arctic-snow"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arctic-snow-on-sea-ice/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

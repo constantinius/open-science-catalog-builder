@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-109",
+  "properties": {
+    "start_datetime": "2020-04-29T00:00:00",
+    "end_datetime": "2022-06-01T00:00:00",
+    "title": "VAD3EMECUM. Vegetation and drought: towards improved data-driven estimated of ecosystem carbon fluxes under moisture stress",
+    "description": "Integration of data streams of the sun-induced chlorophyll fluorescence, land surface temperature and vegetation optical depth into data-driven flux models for a better diagnosis of vegetative stress reactions as well as completementary information on soil moisture.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-04-29T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/vad3mecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/vad3mecum-vegetation-and-drought-towards-improved-data-driven-estimated-of-ecosystem-carbon-fluxes-under-moisture-stress/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

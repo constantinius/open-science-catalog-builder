@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-77",
+  "properties": {
+    "start_datetime": "2021-04-22T00:00:00",
+    "end_datetime": "2023-06-14T00:00:00",
+    "title": "SEN4CARBON Theme 1: Terrestrial Gross Primary Production (SEN4GPP)",
+    "description": "Assess time-space variability of terrestrial gross primary production  (GPP) of terrestrial ecosystems by a synergistic exploitation of the complementary information provided by  the Sentinel missions (Sentinel-2, Sentinel-3 and Sentinel-5P) at multiple spatial and temporal resolutions, as well as other Earth Observation and in situ data.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "NOVELTIS SAS (FR), CEA-LSCE (FR),  Fondazione Centro Euro-Mediterraneo (IT), MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE), UNIVERSITAT POLIT\u221a\u00e0CNICA DE VAL\u221a\u00e0NCIA (ES), UNIVERSITY OF SOUTHAMPTON (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2021-04-22T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://sen4gpp.noveltis.fr/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sen4gpp/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

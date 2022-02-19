@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-25",
+  "properties": {
+    "start_datetime": "2018-12-14T00:00:00",
+    "end_datetime": "2020-05-31T00:00:00",
+    "title": "BALTIC+ Sea-Land biogeochemical linkages (SeaLaBio)",
+    "description": "Develop methods for assessing carbon dynamics and eutrophication in the Baltic Sea through integrated use of EO, models, and ground-based data",
+    "osc:themes": [
+      "Oceans",
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "FINNISH ENVIRONMENT INSTITUTE (SYKE) (FI),BROCKMANN CONSULT GMBH (DE),BROCKMANN GEOMATICS SWEDEN AB (HEAD (SE),Leibniz Institute for Baltic Sea Re (DE),SOLVO (FR)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-12-14T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.syke.fi/projects/BalticSeaLaBio"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/baltic-sea-land-biogeochemical-linkages-sealabio/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

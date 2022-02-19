@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-34",
+  "properties": {
+    "start_datetime": "2012-06-05T00:00:00",
+    "end_datetime": "2018-05-15T00:00:00",
+    "title": "CryoSat Plus For Oceans (CP4O)",
+    "description": "Exploitation of CryoSat-2 data over the open and coastal ocean",
+    "osc:themes": [
+      "Oceans",
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "SATELLITE OCEANOGRAPHIC CONSULTANTS LTD. (GB), NATURAL ENVIRONMENT RESEARCH COUNCIL (GB), NOVELTIS SAS (FR), STARLAB BARCELONA SL (ES), TU DELFT (NL), Technical University of Denmark (DK), UNIVERSITY OF PORTO \u201a FACULTY OF SCIENCE (PT), isardSAT (ES)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2012-06-05T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.satoc.eu/projects/CP4O/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/cryosat-ocean/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

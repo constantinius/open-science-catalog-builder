@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-61",
+  "properties": {
+    "start_datetime": "2019-07-26T00:00:00",
+    "end_datetime": "2021-05-01T00:00:00",
+    "title": "Ocean CIRculation from ocean COLour observations (CIRCOL)",
+    "description": "Improve the retrieval of altimeter-derived currents in the Mediterranean Basin combining the largescale, altimeter-derived geostrophic currents with the high-resolution dynamical information contained in sequences of satellite-derived surface Chlorophyll (Chl) observations",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "CNR-INSTITUTE OF MARINE SCIENCES-ISMAR (IT),CLS COLLECTE LOCALISATION SATELLITES (FR)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-07-26T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://circol.artov.ismar.cnr.it/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/circol/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

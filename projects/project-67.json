@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-67",
+  "properties": {
+    "start_datetime": "2020-09-03T00:00:00",
+    "end_datetime": "2022-08-31T00:00:00",
+    "title": "Polar+ Ice Shelf",
+    "description": "Exploiting the 25-year record of ESA satellite observations, including SMOS, S-1, S-2, and swath mode processed CryoSat-2 data, to produce a comprehensive record of ice shelf change that extends the temporal coverage and improves the spatial resolution with which we can study Antarctic Ice Shelves",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "University of Leeds (GB), DLR (DE), Finnish Meteorological Institute (FMI) (FI), ENVEO (AT), EarthWave (GB), University of Edinburgh (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-09-03T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://polar-iceshelf.org"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/polar-ice-shelf/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

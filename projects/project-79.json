@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-79",
+  "properties": {
+    "start_datetime": "2020-04-28T00:00:00",
+    "end_datetime": "2022-05-05T00:00:00",
+    "title": "Sentinel-1 for Science: Amazonas",
+    "description": "Develop, test and validate an operational-level Multi-temporal forest Change Detection (MCD) algorithm; estimate carbon loss and gain from anthropogenic and natural land use changes (LUC) in the Amazonas based on the MCD outputs, and perform scientific analysis and interpretation of the quantified carbon gain/loss, accounting for seasonal stressors such as severe droughts or fires.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "GISAT S.R.O. (CZ), Agresta S. Coop. (ES),NLS FINNISH GEOSPATIAL RESEARCH INS (FI),Norwegian University of Life Scienc (NO)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-04-28T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://project.gisat.cz/s14scienceAmazonas/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/s14science-amazonas/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

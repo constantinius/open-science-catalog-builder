@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-31",
+  "properties": {
+    "start_datetime": "2020-07-09T00:00:00",
+    "end_datetime": "2021-07-15T00:00:00",
+    "title": "CITYSATAIR",
+    "description": "Develop and demonstrate a methodology that is capable of exploiting the various available data sources of urban air quality, to combine them in a mathematically objective and scientifically meaningful manner, and to provide value-added maps of urban air quality at high spatial resolution.",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "KNMI (NL),NILU - NORWEGIAN INSTITUTE FOR AIR RESEARCH (NO)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-07-09T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://citysatair.nilu.no/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/citysatair/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

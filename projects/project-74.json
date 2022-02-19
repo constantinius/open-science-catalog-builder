@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-74",
+  "properties": {
+    "start_datetime": "2015-12-02T00:00:00",
+    "end_datetime": "2018-03-01T00:00:00",
+    "title": "S2 for Land and Water, Coastal and Inland Waters Theme",
+    "description": "Development and validation of inland water circulation models coupled with remote sensing data to better understand the processes involved in these water bodies. The project investigated the potential of the S-2 radiometric data products to constrain hydrodynamic and ecological models of at least three water body types covering as wide a range as possible of eutrophic levels and ecological niches.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "ECOLE POLYTECHNIQUE FEDERALE DE LAUSANNE (CH), INSTITUT NATIONAL DE LA RECHERCHE AGRONOMIQUE (INRA) (FR), ODERMATT & BROCKMANN GMBH (CH)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2015-12-02T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://meteolakes.ch/#!/about"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/s2-for-land-and-water-coastal-and-inland-waters-theme/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

@@ -29,6 +29,36 @@
       "type": "application/json"
     },
     {
+      "rel": "item",
+      "href": "../projects/project-111.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-110.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-46.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-1.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-33.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-106.json",
+      "type": "application/json"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json"
@@ -39,6 +69,7 @@
   "osc:years": [],
   "osc:numberOfProducts": 0,
   "osc:numberOfVariables": 3,
+  "osc:numberOfProjects": 6,
   "extent": {
     "spatial": {
       "bbox": [

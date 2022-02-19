@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-51",
+  "properties": {
+    "start_datetime": "2020-04-01T00:00:00",
+    "end_datetime": "2021-06-30T00:00:00",
+    "title": "Impact study of COVID-19 lockdown measures on air quality and climate ICOVAC",
+    "description": "The project investigated whether a COVID-19 footprint can be detected in available satellite and ground-based data sets for a number of pollutants. The project attempted to assess the potential impact of the lockdown measures on air quality and climate by deriving updated NOx and CO emissions but also on climate with the analysis of satellite greenhouse gas data products, such as XCO2 columns and/or via the use of the NOx emissions as a proxy to derive fossil fuel CO2 emissions.",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "BELGIAN INSTITUTE OF SPACE AERONOMY (BIRA-IASB) (BE), KNMI (NL),Netherlands Institute for Space Research (NWO-I) (NL),UNIVERSITAET BREMEN (DE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-04-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://icovac.aeronomie.be/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/icovac/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

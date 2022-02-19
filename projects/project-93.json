@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-93",
+  "properties": {
+    "start_datetime": "2019-05-23T00:00:00",
+    "end_datetime": "2021-06-30T00:00:00",
+    "title": "SENTINEL-5P+ INNOVATION SOLAR INDUCED CHLOROPHYLL FLUORESCENCE (SIF)",
+    "description": "Development of satellite Solar induced chlorophyll fluorescence (SIF) products ",
+    "osc:themes": [
+      "Atmosphere",
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "NOVELTIS SAS (FR)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-05-23T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://s5p-troposif.noveltis.fr/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-solar-induced-chlorophyll-fluorescence-sif/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

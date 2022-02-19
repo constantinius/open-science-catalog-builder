@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-98",
+  "properties": {
+    "start_datetime": "2018-10-09T00:00:00",
+    "end_datetime": "2020-10-31T00:00:00",
+    "title": "SMOWS: Satellite Mode Waters Salinity, in synergy with Temperature and Sea Level",
+    "description": "How salinity impacts the formation of sub-surface waters (Mode Waters) in the South-West Pacific Ocean",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE (CNRS) (FR)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-09T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/smows-satellite-mode-waters-salinity-in-synergy-with-temperature-and-sea-level/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/smows-satellite-mode-waters-salinity-in-synergy-with-temperature-and-sea-level/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

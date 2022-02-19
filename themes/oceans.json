@@ -154,6 +154,151 @@
       "type": "application/json"
     },
     {
+      "rel": "item",
+      "href": "../projects/project-63.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-116.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-66.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-98.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-7.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-10.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-21.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-47.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-85.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-17.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-24.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-25.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-75.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-95.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-27.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-22.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-26.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-34.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-49.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-59.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-8.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-6.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-28.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-42.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-61.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-62.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-92.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-118.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "../projects/project-23.json",
+      "type": "application/json"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json"
@@ -181,6 +326,7 @@
   ],
   "osc:numberOfProducts": 66,
   "osc:numberOfVariables": 28,
+  "osc:numberOfProjects": 29,
   "extent": {
     "spatial": {
       "bbox": [

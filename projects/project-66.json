@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-66",
+  "properties": {
+    "start_datetime": "2018-10-01T00:00:00",
+    "end_datetime": "2020-10-31T00:00:00",
+    "title": "PHYSIOGLOB: Assessing the inter-annual physiological response of phytoplankton to global warming using long-term satellite observations",
+    "description": "Assessing the inter-annual physiological response of phytoplankton to global warming using long-term satellite observations",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "ITALIAN NATIONAL AGENCY FOR NEW TECHNOLOGIES, ENERGY AND SUSTAINABLE ECONOMIC DEVELOPMENT (ENEA) (IT)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/physioglob/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/physioglob/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

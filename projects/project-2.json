@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-2",
+  "properties": {
+    "start_datetime": "2019-09-24T00:00:00",
+    "end_datetime": "2022-10-15T00:00:00",
+    "title": "4DANTARCTICA",
+    "description": "Advancing the understanding of the Antarctic Ice Sheet\u201a supra and sub-glacial hydrology, its evolution, and its role within the broader ice sheet and ocean systems.",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "UNIVERSITY OF EDINBURGH (GB), CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u2013 IRPI (IT), DLR \u2013 GERMAN AEROSPACE CENTER (DE), EARTHWAVE Ltd (GB), EIDGEN\u00d6SSISCHE TECHNISCHE HOCHSCHULE ZURICH (ETH ZURICH) (CH), ENVEO \u2013 ENVIRONMENTAL EARTH OBSERVATION GMBH (AT), SHEPHERD SPACE LTD. (GB), Technical University of Denmark (DK), UKRI Rutherford Appleton Laboratory (GB), UNIVERSITY OF LANCASTER ENVIROMENT CENTRE (GB), UNIVERSITY OF LEEDS, SCHOOL OF EARTH AND ENVIRONMENT (GB), UNIVERSIT\u00c9 GRENOBLE ALPES (FR)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-09-24T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.4d-antarctica.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/4dantarctica/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

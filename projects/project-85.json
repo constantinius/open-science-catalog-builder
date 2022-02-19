@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-85",
+  "properties": {
+    "start_datetime": "2018-05-28T00:00:00",
+    "end_datetime": "2020-03-16T00:00:00",
+    "title": "SENTINEL-3 TANDEM FOR CLIMATE (S3TC) EXPRO+",
+    "description": "Detailed study of the inter-satellite discrepancies, differences and uncertainties using data acquired during the Sentinel-3 Tandem phase.",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "ACRI-ST S.A.S. (FR), CLS COLLECTE LOCALISATION SATELLITES (FR),NATIONAL PHYSICAL LABORATORY (NPL) (GB),NATURAL ENVIRONMENT RESEARCH COUNCIL (GB),STFC RUTHERFORD APPLETON LABORATORY (GB),UNIVERSITY OF LEEDS, SCHOOL OF EARTH AND ENVIRONMENT (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-05-28T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://s3tandem.eu/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-3-tandem-for-climate-s3tc-expro/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

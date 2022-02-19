@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-29",
+  "properties": {
+    "start_datetime": "2018-09-05T00:00:00",
+    "end_datetime": "2021-12-31T00:00:00",
+    "title": "BIOMASCAT: Assessing vegetation carbon dynamics from multi-decadal spaceborne observations",
+    "description": "Developing a more comprenensive approach to the inforamtion gap by combining SAR and scatterometer data collected since the early 1990s to estiamte biomass properties",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "GAMMA REMOTE SENSING AG (CH), MAX PLANCK INSTITUTE FOR BIOGEOCHEMISTRY (DE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-09-05T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/biomascat/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/biomascat/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

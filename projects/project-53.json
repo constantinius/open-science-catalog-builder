@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-53",
+  "properties": {
+    "start_datetime": "2020-05-20T00:00:00",
+    "end_datetime": "2022-07-01T00:00:00",
+    "title": "L2A-RUT",
+    "description": "The study focuses on a mathematical expression of the atmospheric correction of the operational S2 L2A products using the Sen2Cor processor.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "UNIVERSITAT POLITECNICA DE VALENCIA (ES)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-05-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/l2a-rut/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/l2a-rut/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

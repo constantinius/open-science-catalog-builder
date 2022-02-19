@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-20",
+  "properties": {
+    "start_datetime": "2018-10-16T00:00:00",
+    "end_datetime": "2020-10-31T00:00:00",
+    "title": "ArcticSummIT: Arctic Summer Ice Thickness",
+    "description": "Using new techniques to measure pan-Arctic sea ice thickness from the satellite radar altimeter Cryosat-2 during summer months",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF BRISTOL (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-16T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arcticsummit-arctic-summer-ice-thickness/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arcticsummit-arctic-summer-ice-thickness/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

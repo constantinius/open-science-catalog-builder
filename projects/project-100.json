@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-100",
+  "properties": {
+    "start_datetime": "2016-03-03T00:00:00",
+    "end_datetime": "2019-11-30T00:00:00",
+    "title": "STSE CryoSat+ CryoTop Evolution",
+    "description": "Generate L2, L3 and L4 products over the Greenland and Antarctic ice sheets from swath processing of CryoSat SARIn mode data",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF EDINBURGH (GB), ENVEO \u201aENVIRONMENTAL EARTH OBSERVATION INFORMATION TECHNOLOGY GMBH (AT), UNIVERSITY OF LEEDS, SCHOOL OF EARTH AND ENVIRONMENT (GB), isardSAT (ES)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2016-03-03T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://cryotop-evolution.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/stse-cryosat-cryotop-evolution-expro/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

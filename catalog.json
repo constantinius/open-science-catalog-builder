@@ -38,10 +38,16 @@
       "rel": "child",
       "href": "./themes/solid-earth.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "./metrics.json",
+      "type": "application/json"
     }
   ],
   "stac_extensions": [],
   "osc:numberOfProducts": 204,
+  "osc:numberOfProjects": 119,
   "osc:numberOfVariables": 79,
   "osc:numberOfThemes": 6,
   "osc:years": [

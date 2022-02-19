@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-1",
+  "properties": {
+    "start_datetime": "2019-10-22T00:00:00",
+    "end_datetime": "2020-11-12T00:00:00",
+    "title": "3D-Earth",
+    "description": "Establish a global 3D reference model model of the crust and upper mantle based on the analysis of satellite gravity and (electro-)magnetic missions in combination with seismological models and analyse the feedback between processes in Earth\u201a deep mantle and the lithosphere",
+    "osc:themes": [
+      "Solid Earth"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF KIEL (DE), BRITISH ANTARCTIC SURVEY (GB), DUBLIN INSTITUTE FOR ADVANCED STUDIES (DIAS) (IE), GEOLOGICAL SURVEY OF DENMARK AND GREENLAND (DK), TU DELFT (NL), Technical University of Denmark (DK), UNIVERSITY OF OSLO (NO)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-10-22T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.3dearth.uni-kiel.de/en"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/stse-3d-earth/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/solid-earth.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/solid-earth.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Solid Earth"
+}

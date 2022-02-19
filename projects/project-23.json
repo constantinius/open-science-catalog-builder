@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-23",
+  "properties": {
+    "start_datetime": "2019-03-05T00:00:00",
+    "end_datetime": "2020-10-31T00:00:00",
+    "title": "BALTIC+ Geodetic SAR for Baltic Height System Unification (SAR-HSU)",
+    "description": "Geodetic SAR for connecting tide gauges to the GNSS network; GOCE based high resolution geoid at tide gauge stations; Compatibility of geometric and physical reference frames",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "TECHNICAL UNIVERSITY OF MUNICH (DE), LANTMATERIET (SE), NLS FINNISH GEOSPATIAL RESEARCH INS (FI), Space Research Centre, Polish Academy of Sciences (CBK-PAN) (PL), TALLINNA TEHNIKA\u221a\u00faLIKOOL (EE), Technical University of Denmark (DK)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-03-05T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.bgu.tum.de/iapg/baltic/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sar-hsu/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

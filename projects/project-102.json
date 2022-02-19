@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-102",
+  "properties": {
+    "start_datetime": "2016-06-06T00:00:00",
+    "end_datetime": "2018-02-28T00:00:00",
+    "title": "STSE-ARCTIC+ THEME 5 \u2013 CONTRIBUTIONS TO THE YEAR OF POLAR PREDICTIONS (YOPP)",
+    "description": "Prototype system for Arctic Mission Benefit Analysis (ArcMBA) that makes a mathematically rigorous evaluation of the effect that observational constraints imposed by individual and groups of EO (and in situ) data products would have in an advanced data assimilation system. The assessment is performed in terms of the uncertainty reduction in simulated/predicted sea ice, snow, and oceanic target quantities of scientific and societal interest.",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "THE INVERSION LAB THOMAS KAMINSKI CONSULTING (DE), DANISH METEOROLOGICAL INSTITUTE (DK), O.A.SYS \u201a OCEAN ATMOSPHERE SYSTEMS (DE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2016-06-06T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://arctic-plus.inversion-lab.com/index.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/stse-arctic-theme-5-contributions-to-the-year-of-polar-predictions-yopp/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

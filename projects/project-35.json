@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-35",
+  "properties": {
+    "start_datetime": "2018-12-21T00:00:00",
+    "end_datetime": "2021-01-04T00:00:00",
+    "title": "Cryosat+ Antarctic Ocean",
+    "description": "CryoSat-2 for enhanced sea-ice thickness and ocean observations in Antarctica: \u201a\u00c4\u00faCryoSat+ Antarctic Ocean\u201a\u00c4\u00f9",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "MULLARD SPACE SCIENCE LABORATORY \u201a UNIVERSITY COLLEGE LONDON (GB), CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE (CNRS) (FR), CLS COLLECTE LOCALISATION SATELLITES (FR), SHEPHERD SPACE LTD. (GB), Technical University of Denmark (DK), isardSAT UK (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-12-21T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://cryosat.mssl.ucl.ac.uk/csao"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/cryosat-2-for-enhanced-sea-ice-thickness-and-ocean-observations-in-antarctica-cryosat-antarctic-ocean/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

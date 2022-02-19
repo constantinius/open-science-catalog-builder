@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-71",
+  "properties": {
+    "start_datetime": "2020-07-24T00:00:00",
+    "end_datetime": "2021-06-30T00:00:00",
+    "title": "PRISMA + S5P demonstration for COVID-19 studies",
+    "description": "Investigate the possibility to exploit PRISMA (PRecursore IperSpettrale della Missione Applicativa, an Italian Space Agency (ASI) hyperspectral mission) fine resolution measurements together with daily S5P/TROPOMI and AERONET measurements for motoring environmental dynamics associated with COVID-19 epidemic appearance and evolution in regional scale.",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "GRASP-SAS (FR),CATALYSTS GMBH (AT),CloudFLight (DE),CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u201a IRPI (IT),Institute of BioEconomy (IBE)-CNR (IT),KNMI (NL)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-07-24T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/prisma/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/prisma/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

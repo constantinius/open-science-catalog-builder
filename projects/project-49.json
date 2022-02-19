@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-49",
+  "properties": {
+    "start_datetime": "2020-01-28T00:00:00",
+    "end_datetime": "2022-02-18T00:00:00",
+    "title": "HydroCoastal: coastal ocean and inland water altimetry",
+    "description": "Study the interactions between inland water and coastal zone, between coastal zone and open ocean, and small-scale processes that govern these interactions",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "SATELLITE OCEANOGRAPHIC CONSULTANTS LTD. (GB), ALONG-TRACK (FR),ARESYS SRL (IT),CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u201a IRPI (IT),ISARDSAT S.L. (ES),National Oceanography Centre (GB),NATIONAL UNIVERSITY OF IRELAND, MAY (IE),NOVELTIS SAS (FR),TECHNICAL UNIVERSITY OF DENMARK (DK),TECHNI",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-01-28T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.satoc.eu/projects/hydrocoastal/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/hydrocoastal/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

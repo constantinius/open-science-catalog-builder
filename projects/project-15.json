@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-15",
+  "properties": {
+    "start_datetime": "2020-10-20T00:00:00",
+    "end_datetime": "2022-12-01T00:00:00",
+    "title": "AlpSnow",
+    "description": "Develop improved products for a number of snow parameters (area extent, albedo, grain size, depth, snow water equivalent, snow melt area and wetness). ",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "ENVEO \u201a ENVIRONMENTAL EARTH OBSERVATION GMBH (AT),WSL Swiss Federal Institute for Forest, Snow and Landscape Research (CH), UNIVERSITY OF EDINBURGH (GB), UNIV INNSBRUCK (AT), Environmental Protection Agency of (IT), EURAC RESEARCH \u201a ACCADEMIA EUROPEA (IT), DLR \u201a GERMAN AEROSPACE CENTER (DE), CENTRAL INSTITUTE FOR METEOROLOGY AND GEODYNAMICS (AT)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-10-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://alpsnow.enveo.at"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/alpsnow/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

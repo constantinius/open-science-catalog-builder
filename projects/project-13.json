@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-13",
+  "properties": {
+    "start_datetime": "2019-10-16T00:00:00",
+    "end_datetime": "2020-11-06T00:00:00",
+    "title": "ALBIOM (ALtimetry for BIOMass)",
+    "description": "Derive forest biomass using SAR Altimetry Data from the Copernicus Sentinel-3 (S3) Mission.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "DEIMOS SPACE UK LTD (GB), Sapienza University of Rome (IT),UNIV II ROMA TOR VERGATA (IT)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-10-16T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/albiom/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/albiom/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

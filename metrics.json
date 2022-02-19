@@ -27,6 +27,7 @@
             2021
         ],
         "numberOfProducts": 204,
+        "numberOfProjects": 119,
         "numberOfVariables": 79,
         "numberOfThemes": 6
     },
@@ -51,6 +52,7 @@
                     2019
                 ],
                 "numberOfProducts": 39,
+                "numberOfProjects": 32,
                 "numberOfVariables": 15
             },
             "variables": [
@@ -217,6 +219,7 @@
                     2021
                 ],
                 "numberOfProducts": 55,
+                "numberOfProjects": 37,
                 "numberOfVariables": 7
             },
             "variables": [
@@ -313,6 +316,7 @@
                     2020
                 ],
                 "numberOfProducts": 28,
+                "numberOfProjects": 27,
                 "numberOfVariables": 24
             },
             "variables": [
@@ -551,6 +555,7 @@
                     2020
                 ],
                 "numberOfProducts": 66,
+                "numberOfProjects": 29,
                 "numberOfVariables": 28
             },
             "variables": [
@@ -833,6 +838,7 @@
                     2014
                 ],
                 "numberOfProducts": 16,
+                "numberOfProjects": 6,
                 "numberOfVariables": 2
             },
             "variables": [
@@ -868,6 +874,7 @@
             "summary": {
                 "years": [],
                 "numberOfProducts": 0,
+                "numberOfProjects": 6,
                 "numberOfVariables": 3
             },
             "variables": [

@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-16",
+  "properties": {
+    "start_datetime": "2020-03-10T00:00:00",
+    "end_datetime": "2021-03-31T00:00:00",
+    "title": "AnREO: Retrieval of Total Ozone using OLCI-S-3 over Antarctica",
+    "description": "Develop a total ozone product for Ocean and Land Colour Instrument (OLCI) on board Sentinel 3 A,B.",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "VITROCISET BELGIUM SPRL (BE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-03-10T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.vitrocisetbelgium.com/news/retrieval-total-ozone-over-antarctica-using-ocean-and-land-colour-instrument-board-sentinel"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/2021/09/07/retrieval-of-total-ozone-at-300m-resolution-over-antarctica-using-s3-olci/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

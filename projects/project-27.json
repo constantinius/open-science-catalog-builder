@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-27",
+  "properties": {
+    "start_datetime": "2018-05-07T00:00:00",
+    "end_datetime": "2019-06-15T00:00:00",
+    "title": "BathySent - An Innovative Method to Retrieve Global Coastal Bathymetry from Sentinel-2",
+    "description": "Development of an automated method for mapping coastal bathymetry (water depths) on the basis of Copernicus Sentinel-2 mission",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "BUREAU DE RECHERCHES GEOLOGIQUES ET MINIERES (BRGM) (FR, CLOUDFERRO SP Z O. (PL),HELLENIC CENTRE FOR MARINE RESEARCH (HCMR) (GR)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-05-07T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.bathysent.org"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/an-innovative-method-to-retrieve-global-coastal-bathymetry-from-sentinel-2/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

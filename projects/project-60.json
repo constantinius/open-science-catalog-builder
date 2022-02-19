@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-60",
+  "properties": {
+    "start_datetime": "2018-10-02T00:00:00",
+    "end_datetime": "2020-10-31T00:00:00",
+    "title": "MULTI-FLEX: towards a strategy for fluorescence monitoring at multiple scales within the context of the FLEX/S-3 tandem mission",
+    "description": "Exploiting the potential of fluorescence and reflectance to describe photosynthetic dynamics, using the dataset acquired within the ATMOFLEX project, developing a flexible tool built on physically based RTMs for retrieving information about vegetation biophysical/biochemical parameters and Sun-induced fluorescence, capable of dealing with multiple spectral and spatial resolution data",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF MILANO BICOCCA (IT)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-02T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/multi-flex-towards-a-strategy-for-fluorescence-monitoring-at-multiple-scales-within-the-context-of-the-flex-s-3-tandem-mission/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/multi-flex-towards-a-strategy-for-fluorescence-monitoring-at-multiple-scales-within-the-context-of-the-flex-s-3-tandem-mission/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

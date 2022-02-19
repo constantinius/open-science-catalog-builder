@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-52",
+  "properties": {
+    "start_datetime": "2019-02-22T00:00:00",
+    "end_datetime": "2020-10-30T00:00:00",
+    "title": "INVESTIGATING LIGHTNING GENERATED ELF WHISTLERS TO IMPROVE IONOSPHERIC MODELS (ILGEW)",
+    "description": "ILGEW project has three main scientific objectives: 1) Characterize the whistler dispersion measured from Earth low orbital altitudes, in order to analyse the ionosphere below Swarm satellites, along the propagation path of the whistlers; 2) Constrain the lightning activity that lead to favourable propagation conditions for the generation of detectable ELF whistlers at Swarm altitudes; 3) Establish the benefits that can be obtained for ionospheric models such as the International Reference Ionosphere (IRI) by using the information obtained from whistler\u2019s characteristics.",
+    "osc:themes": [
+      "Atmosphere",
+      "Magnetosphere_Ionosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "INST PHYSIQUE GLOBE (FR), AGH UST- UNIVERSITY OF SCIENCE AND (PL), INSTITUTE OF ATMOSPHERIC PHYSICS (CZ)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-02-22T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://ilgew.ipgp.fr"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/ilgew/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/magnetosphere-ionosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Magnetosphere_Ionosphere"
+}

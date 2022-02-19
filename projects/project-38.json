@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-38",
+  "properties": {
+    "start_datetime": "2019-10-15T00:00:00",
+    "end_datetime": "2022-11-15T00:00:00",
+    "title": "CRYOSPHERE VIRTUAL LABORATORY EXPRO +",
+    "description": "Collaborative Open Science Tool for the cryosphere scientific community",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "Norwegian Research Centre (NORCE), project leader, The Norwegian Meteorological Institute (MET) , Nansen Environmental and Remote Sensing Center (NERSC), Science and Technology (S&T), The Norwegian Polar Institute (NPI)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-10-15T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://cvl.eo.esa.int/metsis/search"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/cryosphere-virtual-laboratory-expro/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

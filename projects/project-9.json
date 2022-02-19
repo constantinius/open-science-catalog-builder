@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-9",
+  "properties": {
+    "start_datetime": "2020-12-15T00:00:00",
+    "end_datetime": "2021-07-02T00:00:00",
+    "title": "AEOLUS+ INNOVATION \u201a EXPRO+ LIDAR MEASUREMENTS TO IDENTIFY STREAMERS AND ANALYZE ATMOSPHERIC WAVES (LISA)",
+    "description": "Aeolus wind measurements enable for the first time the derivation of atmospheric wave structures on different temporal and spatial scales and wind gradients in particular above the oceans, where wind measurements from ground-based instruments are sparse. These measurements will help us to better understand the atmospheric dynamics.",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "DLR - GERMAN AEROSPACE CENTER (DE), INSTITUTE OF ATMOSPHERIC PHYSICS (CZ)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-12-15T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.wdc.dlr.de/lisa/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/lidar-measurements-to-identify-streamers-and-analyze-atmospheric-waves-lisa/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

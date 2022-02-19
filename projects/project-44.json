@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-44",
+  "properties": {
+    "start_datetime": "2018-10-17T00:00:00",
+    "end_datetime": "2020-10-31T00:00:00",
+    "title": "EOCYTES: Evaluation of the effect of Ozone on Crop Yields and the TErrestrial carbon pool using Satellite data",
+    "description": "Analyse satellite datasets of O3, and vegetation indices and use the JULES land surface model to assess how short-term and long-term O3 exposure decreases the terrestrial carbon sink and crop yields, particularly near megacities where emissions of O3 precursors are most concentrated",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF LEICESTER (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-17T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eocytes-evaluation-of-the-effect-of-ozone-on-crop-yields-and-the-terrestrial-carbon-pool-using-satellite-data/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eocytes-evaluation-of-the-effect-of-ozone-on-crop-yields-and-the-terrestrial-carbon-pool-using-satellite-data/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

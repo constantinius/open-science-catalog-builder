@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-81",
+  "properties": {
+    "start_datetime": "2016-11-10T00:00:00",
+    "end_datetime": "2019-03-31T00:00:00",
+    "title": "Sentinel-3 for Science, Land Study 1: Snow",
+    "description": "Develop, implement and validate algorithms for deriving several key snow parameters from Sentinel 3",
+    "osc:themes": [
+      "Cryosphere",
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "GEOLOGICAL SURVEY OF DENMARK AND GREENLAND (DK), BROCKMANN CONSULT GMBH (DE), CNRS, DELEGATION NORMANDIE (FR)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2016-11-10T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://snow.geus.dk/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-3-for-science-land-study-1-snow/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

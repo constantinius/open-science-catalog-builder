@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-69",
+  "properties": {
+    "start_datetime": "2019-12-01T00:00:00",
+    "end_datetime": "2022-05-01T00:00:00",
+    "title": "PRE-MELT: Preconditioning the trigger for rapid Arctic ice melt",
+    "description": "The project will deliver the first measurements of Arctic sea ice thickness during summer months, from twin satellites: ESA's Cryosat-2 & NASA's ICESat-2. Research linked to LPF project ArcticSummIT (https://eo4society.esa.int/projects/arcticsummit-arctic-summer-ice-thickness/)",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "University of Bristo (UK)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-12-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://gtr.ukri.org/projects?ref=NE%2FT000546%2F1#/tabOverview"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-117",
+  "properties": {
+    "start_datetime": "2015-12-01T00:00:00",
+    "end_datetime": "2018-04-30T00:00:00",
+    "title": "S2 for Land and Water, Change Detection/Multi-temporal",
+    "description": "The project aims at defining the scientific methods and the related prototype algorithms for addressing three main challenges with the multispectral and multiresolution Sentinel 2 images: 1) change detection; 2) analysis of image time series; and 3) updating of land-cover maps.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSIT\u00c0 DEGLI STUDI DI TRENTO (IT), FONDAZIONE BRUNO KESSLER FBK (IT)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2015-12-01T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://rsde.fbk.eu/projects/esa-seom-s2-4sci-land-and-water"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/s2-for-land-and-water-change-detection-multi-temporal/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

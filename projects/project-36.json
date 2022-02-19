@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-36",
+  "properties": {
+    "start_datetime": "2015-05-13T00:00:00",
+    "end_datetime": "2020-12-31T00:00:00",
+    "title": "CryoSat+ Mountain Glaciers",
+    "description": "Quantify the volume, mass change and contribution to sea level change of mountain glaciers using CryoSat satellite radar altimeter data",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "University of Edinburgh (UoE), isardSAT, Environmental Earth Observation Information Technology GMBH, earthwave Earth Observation and Data Science Specialists, University College of London \u201a Mullard Space Science Labor (UCL)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2015-05-13T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.cryosat-mtg.org/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/cryosat-mountain-glaciers/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

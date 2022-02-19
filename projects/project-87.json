@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-87",
+  "properties": {
+    "start_datetime": "2019-06-07T00:00:00",
+    "end_datetime": "2021-06-30T00:00:00",
+    "title": "SENTINEL-5P+ INNOVATION - AEROSOL OPTICAL DEPTH (AOD) AND BIDIRECTIONAL REFLECTANCE DISTRIBUTION FUNCTION (BRDF)",
+    "description": "Aerosol and surface reflectance characterisation using capabilities of Sentinel-5p (TROPOMI) measurements.",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "GRASP-SAS (FR)CATALYSTS GMBH (AT),KNMI (NL)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-06-07T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.grasp-sas.com/projects/aod-brdf_sentinel-5p-innovation/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-aod-brdf/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

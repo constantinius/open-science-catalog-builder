@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-72",
+  "properties": {
+    "start_datetime": "2018-10-23T00:00:00",
+    "end_datetime": "2020-10-31T00:00:00",
+    "title": "PROMCOM: Production of lower tropospheric methane and carbon monoxide distributions through combined use of ESA Sentinel-5 Precursor shortwave infrared and IASI/CrIS thermal infrared satellite data",
+    "description": "Production of lower tropospheric methane and carbon monoxide distributions through combined use of ESA Sentinel-5 Precursor shortwave infrared and IASI/CrIS thermal infrared satellite data",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UKRI Rutherford Appleton Laboratory (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-23T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/promcom-production-of-lower-tropospheric-methane-and-carbon-monoxide-distributions-through-combined-use-of-esa-sentinel-5-precursor-shortwave-infrared-and-iasi-cris-thermal-infrared-satellite-data/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/promcom-production-of-lower-tropospheric-methane-and-carbon-monoxide-distributions-through-combined-use-of-esa-sentinel-5-precursor-shortwave-infrared-and-iasi-cris-thermal-infrared-satellite-data/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

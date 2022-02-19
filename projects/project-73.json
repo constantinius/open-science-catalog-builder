@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-73",
+  "properties": {
+    "start_datetime": "2018-10-11T00:00:00",
+    "end_datetime": "2019-11-15T00:00:00",
+    "title": "RIDESAT - RIver flow monitoring and Discharge Estimation by integrating multiple SATellite data",
+    "description": "The RIDESAT Project (RIver flow monitoring and Discharge Estimation by integrating multiple SATellite data) aims at developing a new methodology for the joint exploitation of three sensors (altimeter, optical and thermal) for river flow monitoring and discharge estimation.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "CNR-RESEARCH INSTITUTE FOR GEO-HYDROLOGICAL PROTECTION \u201a IRPI, TECHNICAL UNIVERSITY OF DENMARK (DK)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-11T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://hydrology.irpi.cnr.it/projects/ridesat/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/ridesat/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

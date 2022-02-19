@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-101",
+  "properties": {
+    "start_datetime": "2014-08-20T00:00:00",
+    "end_datetime": "2017-10-30T00:00:00",
+    "title": "STSE SMOS+ SEA ICE",
+    "description": "Develop a data fusion product based on CryoSat and SMOS data, now termed the CS2SMOS product",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF HAMBURG (DE), ALFRED WEGENER INSTITUTE (DE),DANISH METEOROLOGICAL INSTITUTE (DK),FINNISH METEOROLOGICAL INSTITUTE (FI),NANSEN ENVIRONMENTAL AND REMOTE SENSING CENTER (NO),UNIVERSITAET BREMEN (DE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2014-08-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://icdc.cen.uni-hamburg.de/en/l3c-smos-sit.html"
+    },
+    {
+      "rel": "via",
+      "href": "http://due.esrin.esa.int/stse/page_stse_project204.php"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

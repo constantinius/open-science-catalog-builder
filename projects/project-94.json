@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-94",
+  "properties": {
+    "start_datetime": "2018-10-02T00:00:00",
+    "end_datetime": "2020-10-31T00:00:00",
+    "title": "SHRED: Sentinel-1 for High REsolution monitoring of vegetation Dynamics",
+    "description": "Optimally combine the Sentinel-1 CR with VOD retrieved from EEUMETSAT Metop ASCAT backscatter observations to develop a global 1 km VOD product; evaluate the high-resolution VOD product using Leaf Area Index from Copernicus Global Land Service (CGLS), ESA\u201a\u00c4\u00f4s SMOS VOD and VOD from AMSR2; quantify the impact of water availability on vegetation dynamics.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "TECHNISCHE UNIVERSITAT WIEN (TU WIEN) (AT)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-02T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/shred-sentinel-1-for-high-resolution-monitoring-of-vegetation-dynamics/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/shred-sentinel-1-for-high-resolution-monitoring-of-vegetation-dynamics/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

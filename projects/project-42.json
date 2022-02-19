@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-42",
+  "properties": {
+    "start_datetime": "2019-04-26T00:00:00",
+    "end_datetime": "2021-05-03T00:00:00",
+    "title": "Earth Observation data For Science and Innovation in the Black Sea (EO4SIBS)",
+    "description": "Novel EO-based products and enhanced data sets dedicated to the Black Sea as concerns: Ocean colour data, Coastal altimetry, High resolution salinity, River plume extent, Eddy tracking, Water mass classification, Stratification Index",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF LIEGE (BE),AGENCIA ESTATAL CONSEJO SUPERIOR DE (ES),CLS COLLECTE LOCALISATION SATELLITES (FR),Jailoo srl (RO),NATIONAL INSTITUTE FOR MARINE RES.R (RO),Sorbonne Universit\u221a\u00a9, SU (FR),TERRASIGNA SRL (RO)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-04-26T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://www.eo4sibs.uliege.be/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eo4sibs/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

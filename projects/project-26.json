@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-26",
+  "properties": {
+    "start_datetime": "2019-02-06T00:00:00",
+    "end_datetime": "2020-09-30T00:00:00",
+    "title": "BALTIC+ SEAL - Sea Level",
+    "description": "Providing a consistent description of the sea level variability in the Baltic Sea area in terms of seasonal and inter-annual variation and put the results in relationship with the forcing associated with this variability, using a developed dedicated coastal altimetry product",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "TECHNICAL UNIVERSITY OF MUNICH (DE),DANISH METEOROLOGICAL INSTITUTE (DK),FINNISH METEOROLOGICAL INSTITUTE (FI),TECHNICAL UNIVERSITY OF DENMARK (DK),UNIVERSITY COLLEGE CORK (IE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-02-06T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://balticseal.eu/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/baltic-seal-sea-level/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

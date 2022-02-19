@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-43",
+  "properties": {
+    "start_datetime": "2020-08-27T00:00:00",
+    "end_datetime": "2022-08-31T00:00:00",
+    "title": "Earth Observation for Surface Mass Balance (EO4SMB)",
+    "description": "Direct quantification of  surface mass balance using parameters derived from Cryosat-2 observations over Greenland",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "UNIVERSITY OF LANCASTER ENVIROMENT CENTRE (GB), ENVEO \u201a ENVIRONMENTAL EARTH OBSERVATION INFORMATION TECHNOLOGY GMBH (AT), SHEPHERD SPACE LTD. (GB) ,Science [&] Technology Norway (NO), Technical University of Denmark (DK)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-08-27T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://smb.eo4cryo.dk/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/eo4smb/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

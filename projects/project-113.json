@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-113",
+  "properties": {
+    "start_datetime": "2020-04-29T00:00:00",
+    "end_datetime": "2022-06-01T00:00:00",
+    "title": "WATER CYCLE CHANGES CHARACTERISED FROM ATMOSPHERIC MOISTURE RECYCLING (WEATHER)",
+    "description": "The work proposed in this fellowship looks to address this gap by bringing together satellite and reanalysis datasets that represent water in different phases or stages within the hydrological cycle.",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "UNIVERSITY OF LEICESTER (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-04-29T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/weather/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/weather/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

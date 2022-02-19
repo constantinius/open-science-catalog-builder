@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-115",
+  "properties": {
+    "start_datetime": "2018-10-17T00:00:00",
+    "end_datetime": "2020-10-31T00:00:00",
+    "title": "WIFT: Water vapour Isotopologues From TROPOMI",
+    "description": "The subject of this project is to exploit these measurements to retrieve the water vapour isotopologues H216O, HDO and, if possible, H218O. ",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "Netherlands Institute for Space Research (NWO-I) (NL)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-17T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/wift-water-vapour-isotopologues-from-tropomi/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/wift-water-vapour-isotopologues-from-tropomi/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

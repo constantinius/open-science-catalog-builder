@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-11",
+  "properties": {
+    "start_datetime": "2020-02-17T00:00:00",
+    "end_datetime": "2021-10-01T00:00:00",
+    "title": "AKROSS: Altimetric Ku-Band Radar Observations Simulated with SMRT",
+    "description": "Determining how snow properties affect the sea ice thicknes measurements from radar altimetry",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "CORES SCIENCE AND ENGINEERING LIMIT (GB), UNIVERSITY OF NORTHUMBRIA AT NEWCAS (GB), WSL Swiss Federal Institute for Forest, Snow and Landscape Research (CH)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-02-17T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://akross.space"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/akross/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

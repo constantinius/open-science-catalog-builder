@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-21",
+  "properties": {
+    "start_datetime": "2019-05-16T00:00:00",
+    "end_datetime": "2021-07-30T00:00:00",
+    "title": "ARKTALAS HOAVVA PROJECT",
+    "description": "Quantitative multi-scale (temporal and spatial) understanding of sea ice, ocean and atmosphere interactive processes and their mutual feedback, focusing on four Arctic Scientific research Challenges: Arctic Amplification, open water on sea ice dynamics, impact of extreme event storms in sea-ice formation, Artcic ocean spin-up",
+    "osc:themes": [
+      "Oceans",
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "Nansen Environmental and Remote Sensing Center Norway, IFREMER France, OceanDataLab  France, NOVELTIS France",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-05-16T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://arktalas.nersc.no/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arktalas-hoavva-project/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

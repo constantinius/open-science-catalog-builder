@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-76",
+  "properties": {
+    "start_datetime": "2019-02-25T00:00:00",
+    "end_datetime": "2020-04-01T00:00:00",
+    "title": "SaTellite-based Run-off Evaluation And Mapping (STREAM)",
+    "description": "A quality assessment of STREAM runoff estimates has been pursued at multiple pilot basins across the world (5 large basins + multiple sub-basins) characterised by different physiographic/climatic features. In these areas, the model was able to accurately simulate river discharge and total runoff time series. ",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "CNR \u201a INSTITUTE FOR ELECTROMAGNETIC SENSING OF THE ENVIRONMENT (IREA) (IT), Technical University of Denmark (DK), UNIVERSITY OF STUTTGART \u201a INSTITUTE OF GEODESY (DE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-02-25T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://hydrology.irpi.cnr.it/projects/stream"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/stream/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

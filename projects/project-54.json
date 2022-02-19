@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-54",
+  "properties": {
+    "start_datetime": "2020-07-08T00:00:00",
+    "end_datetime": "2023-04-30T00:00:00",
+    "title": "LAND SURFACE CARBON CONSTELLATION STUDY",
+    "description": "Demonstrate the synergistic exploitation of satellite observations from active and passive microwave sensors together with optical data for an improved understanding of the terrestrial carbon and water cycles. This will be achieved by: adapting a numerical land surface model for its application in a data assimilation framework, anf by acquisition and analysis of campaign data sets at Sodankyl\u221a\u00a7 (Finland) and Majadas de Tietar (Spain) supporting the development of the model and the data assimilation scheme on the local scale.",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "Lund University (SE), TU Vienna (AT), Forschungszentrum Julich (DE), The Inversion Lab (DE), Finnish Meteorological Institute (FI), University of Reading (UK), CESBIO (FR), Eidg. Forschungsanstalt fur Wald, Schnee und Landschaft WSL (CH), TU Delft (NL), University of Valencia  (ES), University of Edinburgh (UK), Max Planck Institute for Biogeochemistry (DE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-07-08T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://lcc.inversion-lab.com"
+    },
+    {
+      "rel": "via",
+      "href": ""
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

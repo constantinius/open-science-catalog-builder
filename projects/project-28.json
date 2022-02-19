@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-28",
+  "properties": {
+    "start_datetime": "2019-12-09T00:00:00",
+    "end_datetime": "2021-07-13T00:00:00",
+    "title": "BICEP (Biological Pump and Carbon Exchange Processes)",
+    "description": "Better characterisation of the different components of the ocean biological carbon pump, its pools and fluxes, its variability in space and time and the understanding of its processes and interactions with the earth system, based on a synergetic use of space data, in-situ measurements and model outputs",
+    "osc:themes": [
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "PLYMOUTH MARINE LABORATORY (GB),FINNISH METEOROLOGICAL INSTITUTE (FI),HELLENIC CENTRE FOR MARINE RESEARCH (HCMR) (GR),HYGEOS (FR),NATIONAL AND KAPODISTRIAN UNIVERSIT (GR),UNIVERSITY OF EXETER (GB),UNIVERSITY OF OXFORD (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-12-09T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://bicep-project.org/Home"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/bicep/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-46",
+  "properties": {
+    "start_datetime": "2015-08-20T00:00:00",
+    "end_datetime": "2019-06-25T00:00:00",
+    "title": "GOCE+ ANTARCTICA",
+    "description": "Exploring the potential of GOCE to improve lithospheric modelling over Antarctica, to reduce uncertainties in bedrock topography and to study the implication on GIA modelling",
+    "osc:themes": [
+      "Solid Earth",
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF KIEL (DE), BRITISH ANTARCTIC SURVEY (GB), TU DELFT (NL), Technical University of Denmark (DK)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2015-08-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.bas.ac.uk/project/goceantarctica/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/goce-antarctica/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/solid-earth.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/solid-earth.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

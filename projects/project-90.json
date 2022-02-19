@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-90",
+  "properties": {
+    "start_datetime": "2019-06-03T00:00:00",
+    "end_datetime": "2021-06-30T00:00:00",
+    "title": "SENTINEL-5P+ INNOVATION \u201a WATER VAPOUR ISOTOPOLOGUES (H2O-ISO)",
+    "description": "Demonstrate the feasibility of measuring stable water isotopologues for S5P, specifically ratios of HDO/H2O",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF LEICESTER (GB),KARLSRUHE INSTITUTE OF TECHNOLOGY (DE),UNIVERSITY OF BERGEN (NO)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2019-06-03T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-water-vapour-isotopologues-project-h2o-iso/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/sentinel-5p-innovation-water-vapour-isotopologues-project-h2o-iso/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

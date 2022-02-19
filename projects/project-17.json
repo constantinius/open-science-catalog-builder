@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-17",
+  "properties": {
+    "start_datetime": "2018-10-16T00:00:00",
+    "end_datetime": "2020-04-30T00:00:00",
+    "title": "Arctic + Salinity",
+    "description": "Sea surface salinity measurements by L-band radiometry satellites SMOS and SMAP for the Arctic: algorithm development, long term data set production, quantification of the freshwater fluxes through SSS products",
+    "osc:themes": [
+      "Oceans",
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "ARGANS LIMITED (GB), AGENCIA ESTATAL CONSEJO SUPERIOR DE (ES), NANSEN ENVIRONMENTAL AND REMOTE SENSING CENTER (NO)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-16T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://arcticsalinity.argans.co.uk"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/arctic-salinity/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

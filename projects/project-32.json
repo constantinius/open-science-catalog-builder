@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-32",
+  "properties": {
+    "start_datetime": "2020-05-07T00:00:00",
+    "end_datetime": "2021-05-25T00:00:00",
+    "title": "CLIMATE DATA RECORD OF STRATOSPHERIC AEROSOLS (CREST)",
+    "description": "Elaborate methods to merge aerosol extinction coefficient records from solar/lunar/stellar occultation and limb-scatter instruments and create a merged longterm multi-mission aerosol record. The objective is to increase the reliability of the data set by including multiple instruments measuring similar atmospheric quantities in the post-SAGE II period.",
+    "osc:themes": [
+      "Atmosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "FINNISH METEOROLOGICAL INSTITUTE (FI),ENIPOWER SPA (IT)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-05-07T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/crest/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/crest/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Atmosphere"
+}

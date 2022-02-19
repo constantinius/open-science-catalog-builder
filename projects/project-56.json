@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-56",
+  "properties": {
+    "start_datetime": "2020-05-20T00:00:00",
+    "end_datetime": "2022-07-01T00:00:00",
+    "title": "Mass balance and ice dynamics of Antarctic Peninsula glaciers (MIT-AP)",
+    "description": "The aim of this project is to carry out an enhanced analysis of glacier mass balances and ice dynamics throughout the Antarctic Peninsula (<70\u00ac\u221eS) using various remote sensing data, in-situ measurements and model output.",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "Friedrich-Alexander-University Erl (DE)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-05-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/mit-ap/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/mit-ap/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

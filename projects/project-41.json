@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-41",
+  "properties": {
+    "start_datetime": "2016-10-20T00:00:00",
+    "end_datetime": "2019-02-01T00:00:00",
+    "title": "Development of pan-European Multi-Sensor Snow Mapping Methods Exploiting Sentinel-1",
+    "description": "Multi-sensor snow mapping methods exploiting the Sentinel-1 combined with optical satellite sensors",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "Environmental Earth Observation IT GmbH (ENVEO IT GmbH), Finnish Meteorological Institute (FMI), University of Zurich (UZH), Finnish Environment Institute (SYKE), Northern Research Institute (NORUT)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2016-10-20T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "http://s14scisnow.enveo.at/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/development-of-pan-european-multi-sensor-snow-mapping-methods-exploiting-sentinel-1/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}

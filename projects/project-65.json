@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-65",
+  "properties": {
+    "start_datetime": "2018-10-30T00:00:00",
+    "end_datetime": "2020-07-31T00:00:00",
+    "title": "PHOTOPROXY: TECHNICAL ASSISTANCE FOR THE PHOTOSYNTHETIC-PROXY EXPERIMENT",
+    "description": "Quantitative assessment of vegetation photosynthesis and vegetation stress from space",
+    "osc:themes": [
+      "Land"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "FORSCHUNGSZENTRUM JUELICH GMBH (DE), FONDAZIONE CLIMA E SOSTENIBILIT\u221a\u00c4 (IT),University Bonn - IGG (DE),UNIVERSITY OF ALBERTA (CA)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-30T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://www.fz-juelich.de/ibg/ibg-2/EN/Research/Projects/Photoproxy/Photoproxy%20_projekt_node.html"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/photoproxy-technical-assistance-for-the-photosynthetic-proxy-experiment/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Land"
+}

@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-111",
+  "properties": {
+    "start_datetime": "2020-06-23T00:00:00",
+    "end_datetime": "2022-07-01T00:00:00",
+    "title": "Volcano Monitoring using Deep Learning",
+    "description": "This project will seek to develop a deep learning based model that is able to monitor the majority of the world\u201asubaerial volcanoes using satellite based measurements.  This algorithm will incorporate a model that is trained solely on time series of SAR data, and so does not require pre-training on databases of natural images (e.g. ImageNet).  Additionally, the model will feature complementary and diverse inputs, such as phase, coherence, and amplitude.",
+    "osc:themes": [
+      "Land",
+      "Solid Earth"
+    ],
+    "osc:status": "ONGOING",
+    "osc:consortium": "UNIVERSITY OF LEEDS, SCHOOL OF EARTH AND ENVIRONMENT (GB)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-06-23T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/vmdl/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/vmdl/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/land.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/solid-earth.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/solid-earth.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Solid Earth"
+}

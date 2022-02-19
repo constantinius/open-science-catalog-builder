@@ -1,0 +1,57 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-6",
+  "properties": {
+    "start_datetime": "2020-12-09T00:00:00",
+    "end_datetime": "2021-06-27T00:00:00",
+    "title": "AEOLUS+ INNOVATION - EXPRO+ OCEAN SUB-SURFACE PRODUCTS AND APPLICATIONS",
+    "description": "Assessing the potential of the Aeolus mission to monitor ocean sub-surface optical and biogeochemical properties based on the measurements from the wind lidar ALADIN (Atmospheric Laser Doppler Instrument) at 355 nm.",
+    "osc:themes": [
+      "Atmosphere",
+      "Oceans"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "NOVELTIS SAS (FR),UNIVERSITE DU LITTORAL COTE D'OPALE (FR)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2020-12-09T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-ocean-sub-surface-products-and-applications/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/aeolus-innovation-ocean-sub-surface-products-and-applications/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/atmosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/oceans.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Oceans"
+}

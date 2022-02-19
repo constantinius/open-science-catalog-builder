@@ -1,0 +1,51 @@
+{
+  "type": "Feature",
+  "stac_version": "1.0.0",
+  "id": "project-50",
+  "properties": {
+    "start_datetime": "2018-10-11T00:00:00",
+    "end_datetime": "2020-11-30T00:00:00",
+    "title": "ICEFLOW: Short-term movements in the Cryosphere",
+    "description": "Advancing from fragmented snow and ice velocity snapshots to coherent, large scale glacier velocity time-series",
+    "osc:themes": [
+      "Cryosphere"
+    ],
+    "osc:status": "COMPLETED",
+    "osc:consortium": "UNIVERSITY OF OSLO (NO)",
+    "osc:technical_officer": {
+      "name": "Technical Officer",
+      "email": "technical.officer@osc.org"
+    },
+    "osc:type": "Project",
+    "datetime": "2018-10-11T00:00:00Z"
+  },
+  "geometry": null,
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/iceflow-short-term-movements-in-the-cryosphere/"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/iceflow-short-term-movements-in-the-cryosphere/"
+    },
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../themes/cryosphere.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {},
+  "stac_extensions": [],
+  "collection": "Cryosphere"
+}
