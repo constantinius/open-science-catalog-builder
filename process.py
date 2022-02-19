@@ -19,6 +19,19 @@ from slugify import slugify
 RE_ID_REP = re.compile('r[^A-Za-z0-9\- ]+')
 
 
+
+class MultiCollectionItem(pystac.Item):
+    def set_collection(self, collection: Optional[pystac.Collection]) -> "Item":
+
+        # self.remove_links(pystac.RelType.COLLECTION)
+        self.collection_id = None
+        if collection is not None:
+            self.add_link(pystac.Link.collection(collection))
+            self.collection_id = collection.id
+
+        return self
+
+
 def get_depth(maybe_list):
     if isinstance(maybe_list, (list, tuple)):
         return get_depth(maybe_list[0]) + 1
@@ -128,7 +141,7 @@ def project_to_item(obj):
         },
         "osc:type": "Project",
     }
-    item = pystac.Item(
+    item = MultiCollectionItem(
         f"project-{obj['Project_ID']}",
         None,
         None,
@@ -267,7 +280,13 @@ def main(variables_file, themes_file, projects_file, products_file, out_dir):
             print(f"Missing variable {item.properties['osc:variable']}")
         variable_coll.add_item(item)
 
+    # put projects into their respective theme collections
+    for item in project_items:
+        for theme in item.properties["osc:themes"]:
+            theme_map[slugify(theme)].add_item(item)
+
     catalog.add_children(theme_collections)
+    # catalog.add_items(project_items)
 
     # calculate summary information for variable and themes
     for coll in variable_collections:
@@ -295,6 +314,11 @@ def main(variables_file, themes_file, projects_file, products_file, out_dir):
         coll.extra_fields["osc:numberOfProducts"] = number_of_products
         coll.extra_fields["osc:numberOfVariables"] = i
 
+        for i, item in enumerate(coll.get_items(), start=1):
+            pass
+
+        coll.extra_fields["osc:numberOfProjects"] = i
+
     years = set()
     number_of_products = 0
     number_of_variables = 0
@@ -306,20 +330,18 @@ def main(variables_file, themes_file, projects_file, products_file, out_dir):
 
     catalog.extra_fields = {
         "osc:numberOfProducts": number_of_products,
+        "osc:numberOfProjects": len(project_items),
         "osc:numberOfVariables": number_of_variables,
         "osc:numberOfThemes": i,
         "osc:years": sorted(years),
     }
-
-
-
-
 
     metrics = {
         "id": catalog.id,
         "summary": {
             "years": catalog.extra_fields["osc:years"],
             "numberOfProducts": catalog.extra_fields["osc:numberOfProducts"],
+            "numberOfProjects": catalog.extra_fields["osc:numberOfProjects"],
             "numberOfVariables": catalog.extra_fields["osc:numberOfVariables"],
             "numberOfThemes": catalog.extra_fields["osc:numberOfThemes"],
         },
@@ -333,6 +355,7 @@ def main(variables_file, themes_file, projects_file, products_file, out_dir):
                 "summary": {
                     "years": theme_coll.extra_fields["osc:years"],
                     "numberOfProducts": theme_coll.extra_fields["osc:numberOfProducts"],
+                    "numberOfProjects": theme_coll.extra_fields["osc:numberOfProjects"],
                     "numberOfVariables": theme_coll.extra_fields["osc:numberOfVariables"],
                 },
                 "variables": [
@@ -351,14 +374,13 @@ def main(variables_file, themes_file, projects_file, products_file, out_dir):
         ]
     }
 
-    from pprint import pprint
-    pprint(metrics)
-
     os.makedirs(out_dir)
     os.chdir(out_dir)
 
     with open("metrics.json", "w") as f:
         json.dump(metrics, f, indent=4)
+
+    catalog.add_link(pystac.Link(pystac.RelType.ALTERNATE, "./metrics.json", "application/json"))
 
     # catalog.describe(True)
 
