@@ -9,8 +9,15 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+      - uses: actions/setup-node@v2
       - run: pip install -r requirements.txt
       - run: python process.py Variables.csv Themes.csv Projects-2021-12-20.csv Products-2021-12-20.csv
+      - run: |
+          cd stac-browser/
+          npm install
+          npm run build -- --CATALOG_URL="./catalog.json"
+          cp -r dist/* ../dist
+          cd ..
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
