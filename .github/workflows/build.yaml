@@ -8,16 +8,21 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: true
-      - uses: actions/setup-python@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
         with:
           python-version: '3.x'
-      - uses: actions/setup-node@v2
-      - run: pip install -r requirements.txt
-      - run: python process.py Variables.csv Themes.csv Projects-2021-12-20.csv Products-2021-12-20.csv
-      - run: |
+      - name: Setup Node
+        uses: actions/setup-node@v2
+      - name: Build static Catalog
+        run: |
+          pip install -r requirements.txt
+          python process.py Variables.csv Themes.csv Projects-2021-12-20.csv Products-2021-12-20.csv
+      - name: Building Catalog client
+        run: |
           cd stac-browser/
           npm install
-          npm run build -- --CATALOG_URL="./catalog.json"
+          npm run build -- --CATALOG_URL="./catalog.json" --PATH_PREFIX="/open-science-catalog-builder/"
           cp -r dist/* ../dist
           cd ..
       - name: Deploy
