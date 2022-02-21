@@ -14,6 +14,8 @@ import click
 from dateutil.parser import parse
 from pygeoif import geometry
 from slugify import slugify
+from lxml.builder import ElementMaker
+from lxml import etree
 
 
 RE_ID_REP = re.compile('r[^A-Za-z0-9\- ]+')
@@ -374,13 +376,109 @@ def main(variables_file, themes_file, projects_file, products_file, out_dir):
         ]
     }
 
+    # create codelists.xml
+    nsmap = {
+        "gmd": "http://www.isotc211.org/2005/gmd",
+        "gmx": "http://www.isotc211.org/2005/gmx",
+        "gco": "http://www.isotc211.org/2005/gco",
+        "gml": "http://www.opengis.net/gml/3.2",
+        "xlink": "http://www.w3.org/1999/xlink",
+        "xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    }
+
+    GMX = ElementMaker(namespace=nsmap["gmx"], nsmap=nsmap)
+    GML = ElementMaker(namespace=nsmap["gml"], nsmap=nsmap)
+    GMD = ElementMaker(namespace=nsmap["gmd"], nsmap=nsmap)
+    GCO = ElementMaker(namespace=nsmap["gco"], nsmap=nsmap)
+
+    codelist = GMX(
+        "CT_CodelistCatalogue",
+        GMX(
+            "name",
+            GCO("CharacterString", "OSC_Codelists")
+        ),
+        GMX(
+            "scope",
+            GCO("CharacterString", "Codelists for Open Science Catalog")
+        ),
+        GMX(
+            "fieldOfApplication",
+            GCO("CharacterString", "Open Science Catalog")
+        ),
+        GMX(
+            "versionNumber",
+            GCO("CharacterString", "1.0.0")
+        ),
+        GMX(
+            "versionDate",
+            GCO("Date", "2022-02-05")
+        ),
+        GMX(
+            "language",
+            GMD("LanguageCode", "English", codeList="#LanguageCode", codeListValue="eng"),
+        ),
+        GMX(
+            "characterSet",
+            GMD("MD_CharacterSetCode", "utf8", codeList="#MD_CharacterSetCode", codeListValue="utf8"),
+        ),
+        # actual codelists for themes, variables
+        GMX(
+            "codeListItem",
+            *[
+                GMX(
+                    "codeEntry",
+                    GMX(
+                        "CodeDefinition",
+                        GML("identifier", f"OSC_Theme_{theme_coll.id}", codeSpace="OSC"),
+                        GML("description", theme_coll.description),
+                        GML(
+                            "descriptionReference",
+                            **{
+                                f"{{{nsmap['xlink']}}}type": "simple",
+                                f"{{{nsmap['xlink']}}}href": theme_coll.get_single_link(pystac.RelType.VIA).href,
+                            }
+                        ),
+                        **{f"{{{nsmap['gml']}}}id": f"OSC_Theme_{theme_coll.id}"}
+                    )
+                )
+                for theme_coll in theme_collections
+            ]
+        ),
+        GMX(
+            "codeListItem",
+            *[
+                GMX(
+                    "codeEntry",
+                    GMX(
+                        "CodeDefinition",
+                        GML("identifier", f"OSC_Variable_{variable_coll.id}", codeSpace="OSC"),
+                        GML("description", variable_coll.description),
+                        GML(
+                            "descriptionReference",
+                            **{
+                                f"{{{nsmap['xlink']}}}type": "simple",
+                                f"{{{nsmap['xlink']}}}href": variable_coll.get_single_link(pystac.RelType.VIA).href,
+                            }
+                        ),
+                        **{f"{{{nsmap['gml']}}}id": f"OSC_Variable_{variable_coll.id}"}
+                    )
+                )
+                for variable_coll in variable_collections
+            ]
+        ),
+        # TODO: add EO-Missions?
+    )
+
     os.makedirs(out_dir)
     os.chdir(out_dir)
 
     with open("metrics.json", "w") as f:
         json.dump(metrics, f, indent=4)
 
+    etree.ElementTree(codelist).write("codelists.xml", pretty_print=True)
+
     catalog.add_link(pystac.Link(pystac.RelType.ALTERNATE, "./metrics.json", "application/json"))
+    catalog.add_link(pystac.Link(pystac.RelType.ALTERNATE, "./codelists.xml", "application/xml"))
 
     # catalog.describe(True)
 
