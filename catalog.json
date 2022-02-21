@@ -43,6 +43,11 @@
       "rel": "alternate",
       "href": "./metrics.json",
       "type": "application/json"
+    },
+    {
+      "rel": "alternate",
+      "href": "./codelists.xml",
+      "type": "application/xml"
     }
   ],
   "stac_extensions": [],
