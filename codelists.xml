@@ -63,6 +63,13 @@
         <gml:descriptionReference xlink:type="simple" xlink:href="https://eo4society.esa.int/tag/solid-earth/"/>
       </gmx:CodeDefinition>
     </gmx:codeEntry>
+    <gmx:codeEntry>
+      <gmx:CodeDefinition gml:id="OSC_Theme_Deep Core">
+        <gml:identifier codeSpace="OSC">OSC_Theme_Deep Core</gml:identifier>
+        <gml:description>Description</gml:description>
+        <gml:descriptionReference xlink:type="simple" xlink:href="http://example.com"/>
+      </gmx:CodeDefinition>
+    </gmx:codeEntry>
   </gmx:codeListItem>
   <gmx:codeListItem>
     <gmx:codeEntry>

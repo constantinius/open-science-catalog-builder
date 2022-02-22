@@ -40,6 +40,11 @@
       "type": "application/json"
     },
     {
+      "rel": "child",
+      "href": "./themes/deep-core.json",
+      "type": "application/json"
+    },
+    {
       "rel": "alternate",
       "href": "./metrics.json",
       "type": "application/json"
@@ -54,7 +59,7 @@
   "osc:numberOfProducts": 204,
   "osc:numberOfProjects": 119,
   "osc:numberOfVariables": 79,
-  "osc:numberOfThemes": 6,
+  "osc:numberOfThemes": 7,
   "osc:years": [
     1985,
     1993,

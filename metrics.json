@@ -29,7 +29,7 @@
         "numberOfProducts": 204,
         "numberOfProjects": 119,
         "numberOfVariables": 79,
-        "numberOfThemes": 6
+        "numberOfThemes": 7
     },
     "themes": [
         {
@@ -903,6 +903,19 @@
                     }
                 }
             ]
+        },
+        {
+            "name": "Deep Core",
+            "description": "Description",
+            "image": "...",
+            "website": "http://example.com",
+            "summary": {
+                "years": [],
+                "numberOfProducts": 0,
+                "numberOfProjects": 0,
+                "numberOfVariables": 0
+            },
+            "variables": []
         }
     ]
 }
